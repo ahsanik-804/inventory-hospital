@@ -1,0 +1,7765 @@
+{
+  "updated": 1788692462.863,
+  "data": [
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Anaemia",
+      "MedicineName": "Bioplasgen No. 1",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Asthma",
+      "MedicineName": "Bioplasgen No. 2",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Colic",
+      "MedicineName": "Bioplasgen No. 3",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Constipation",
+      "MedicineName": "Bioplasgen No. 4",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Coryza",
+      "MedicineName": "Bioplasgen No. 5",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Cough, Cold & Catarrh",
+      "MedicineName": "Bioplasgen No. 6",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Diabetes",
+      "MedicineName": "Bioplasgen No. 7",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Diarrhoea",
+      "MedicineName": "Bioplasgen No. 8",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Dysentery",
+      "MedicineName": "Bioplasgen No. 9",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Enlarged Tonsils",
+      "MedicineName": "Bioplasgen No. 10",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Fever",
+      "MedicineName": "Bioplasgen No. 11",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Headache",
+      "MedicineName": "Bioplasgen No. 12",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Leucorrhoea",
+      "MedicineName": "Bioplasgen No. 13",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Inflammation",
+      "MedicineName": "Bioplasgen No. 14",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Menstruation Troubles",
+      "MedicineName": "Bioplasgen No. 15",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Nervous Exhaustion",
+      "MedicineName": "Bioplasgen No. 16",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Piles",
+      "MedicineName": "Bioplasgen No. 17",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Pyorrhoea",
+      "MedicineName": "Bioplasgen No. 18",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Rheumatism",
+      "MedicineName": "Bioplasgen No. 19",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Skin Diseases",
+      "MedicineName": "Bioplasgen No. 20",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Teething Troubles",
+      "MedicineName": "Bioplasgen No. 21",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Scrofula",
+      "MedicineName": "Bioplasgen No. 22",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Toothache",
+      "MedicineName": "Bioplasgen No. 23",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Tonic Nerves & Brain",
+      "MedicineName": "Bioplasgen No. 24",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Acidity & Indigestion",
+      "MedicineName": "Bioplasgen No. 25",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Easy Parturition",
+      "MedicineName": "Bioplasgen No. 26",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Lack of Vitality",
+      "MedicineName": "Bioplasgen No. 27",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "General Tonic",
+      "MedicineName": "Bioplasgen No. 28",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Nervous weakness, mental stress, loss of appetite",
+      "MedicineName": "Alfalfa Schwabe",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Anaemia, exhaustion, general tonic",
+      "MedicineName": "Biofungin",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 250
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Joint pain, sciatica",
+      "MedicineName": "Bryorheum Drops",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Wounds, cuts, bruises",
+      "MedicineName": "Calendumed Ointment",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 50
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Male weakness, nervous debility",
+      "MedicineName": "Damiaplant Drops",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Bedwetting (children/adults)",
+      "MedicineName": "Enuroplant Drops",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Heart palpitations, cardiac elixir",
+      "MedicineName": "Essentia Aurea Schwabe Gold Drops",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Indigestion, gas, acidity",
+      "MedicineName": "Gastrobin Drops",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Liver/gallbladder disorders",
+      "MedicineName": "Hepatoplant Drops",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Kidney & bladder disorders",
+      "MedicineName": "Kidneoplant Drops",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Stress, sexual/nervous weakness",
+      "MedicineName": "Manuia Tablets",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 80
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Cold, flu, cough",
+      "MedicineName": "Nisylen Drops",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 20
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Excess facial hair (women)",
+      "MedicineName": "Ornatic Tablets",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 80
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Weight reduction",
+      "MedicineName": "Phytolacca Berry Schwabe Tablets",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 80
+    },
+    {
+      "Category": "Homeopathic",
+      "Company": "Schwabe (Germany)",
+      "Disease": "Tonsillitis, throat infections",
+      "MedicineName": "Tonsiotren Tablets",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 80
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "OPAL PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "MATIC SR TAB (38)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "OPAL PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "MEBOL TAB (95)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "OPAL PHARMA",
+      "Disease": "Vitamin Supplement",
+      "MedicineName": "Vitamin E Soft Gel (347) FR",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "OPAL PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "MEOFEN SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "N/A",
+      "MedicineName": "nBEPRONATE CREAM (36)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Baby Diaper (Non-Medicine)",
+      "MedicineName": "CANFREE DIAPER (L)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Baby Diaper (Non-Medicine)",
+      "MedicineName": "CANFREE DIAPER (M)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Baby Diaper (Non-Medicine)",
+      "MedicineName": "CANFREE DIAPER (XL)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Baby Diaper (Non-Medicine)",
+      "MedicineName": "CANFREE DIAPER (1)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Vitamin/Energy",
+      "MedicineName": "NEUDEX IML INJ (115)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Bacterial/Eye Infection",
+      "MedicineName": "OB-FLOX 500MG TAB (58)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Vitamin D Supplement",
+      "MedicineName": "OHD PLUS INJ (25)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Allergy",
+      "MedicineName": "ORTIZINE TAB (10)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "OZYMAP 20MG CAP (30)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Iron Deficiency/Anemia",
+      "MedicineName": "RUSUFER 5ML INJ (120)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CEFAMAX CAP (100)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CELFO 250MG TAB (45)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Malaria",
+      "MedicineName": "CHLOROQUINE 5ML INJ (1230)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CIPROFLOXACIN 500MG TAB (60)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "CK QUIN 500MG TAB (68)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL TRADING",
+      "Disease": "Eye/Ear Infection (Steroid+Antibiotic)",
+      "MedicineName": "DEXA-N CREAM (300)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AREETA PHARMA",
+      "Disease": "Calcium Supplement",
+      "MedicineName": "CALCIVIT SCH",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AREETA PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "DICAHIT 5MG TAB (15)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AREETA PHARMA",
+      "Disease": "Pain (Opioid)",
+      "MedicineName": "DOLNOT INJ (S) 30",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AREETA PHARMA",
+      "Disease": "Pain (Opioid)",
+      "MedicineName": "DOLNOT INJ (100'S) 410",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AREETA PHARMA",
+      "Disease": "Bacterial Infection (Injectable)",
+      "MedicineName": "CLIER 1000 INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "DEPSIT 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "DEPSIT 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Iron Supplement",
+      "MedicineName": "EILAR 400MG CAP (393.18) TP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Iron Deficiency/Anemia",
+      "MedicineName": "FERRODINC5 TAB (210)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "FRENDIC5 TAB (20)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Anemia/Iron",
+      "MedicineName": "HISTOR 60ML SUSP (30)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Vitamin B12 Supplement",
+      "MedicineName": "IBION INJ (100)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Tonic/Energy Syrup",
+      "MedicineName": "VIGOREEX 20ML SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Nausea",
+      "MedicineName": "NOGRAD SR TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "PROTONIX 40MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "LEXOF 250MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "LEXOF 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "MASFAZO 20MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Allergy",
+      "MedicineName": "DILAIR 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Hypertension",
+      "MedicineName": "DIASAR 5/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Hypertension",
+      "MedicineName": "DIASAR 10/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Hypertension",
+      "MedicineName": "TELMIS 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "G GROUP",
+      "Disease": "Diabetes",
+      "MedicineName": "ALIANT M 5/850",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "RAZEE",
+      "Disease": "Omega-3 Supplement",
+      "MedicineName": "ROMEGA SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "RAZEE",
+      "Disease": "Inflammation/Swelling",
+      "MedicineName": "DANZEN PLAIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "RAZEE",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ZECHIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "RAZEE",
+      "Disease": "Steroid (Inflammation)",
+      "MedicineName": "PELTON TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "RAZEE",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "RABECID 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "RAZEE",
+      "Disease": "Pain (Opioid Injection)",
+      "MedicineName": "NALBIN 10MG INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "RAZEE",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "RABIXIN 20MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AGP",
+      "Disease": "Calcium Supplement",
+      "MedicineName": "CALCIUM SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AGP",
+      "Disease": "Vitamin D Injection",
+      "MedicineName": "D4U INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AGP",
+      "Disease": "Abdominal Cramps",
+      "MedicineName": "ANAFORTAN INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CECLOR 250MG SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CECLOR 125MG SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CECLOR MR TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CECLOR DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "QAZZO TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Calcium Supplement",
+      "MedicineName": "ALGECAL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "PITALO 1MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "PITALO 4MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "PROLEXA 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "PROLEXA 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Vitamin Supplement",
+      "MedicineName": "BIC CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ELITE PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "DOLMIT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Anxiety",
+      "MedicineName": "STRESAM CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Abdominal Cramps (Pediatric)",
+      "MedicineName": "PASMOLEX DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Calcium/Vitamin D Supplement",
+      "MedicineName": "OSTEOCARE D3 TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "DOLMET TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Joint Pain/Inflammation",
+      "MedicineName": "MOBICAL SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Joint Pain/Inflammation",
+      "MedicineName": "MOBICAL 750MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Joint Pain/Inflammation",
+      "MedicineName": "MOBICAL 500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Joint Pain/Inflammation",
+      "MedicineName": "MOBICAL SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Calcium Supplement",
+      "MedicineName": "KALV SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Calcium Supplement",
+      "MedicineName": "KALVE TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "SINIXAMOL EXTRA TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Diabetic Retinopathy/Vascular",
+      "MedicineName": "DOXIUM CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Abdominal Cramps",
+      "MedicineName": "SPASLEF NEO TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Iron Supplement",
+      "MedicineName": "RUBIFER TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSHIRE PHARMA",
+      "Disease": "Calcium/Vitamin D Supplement",
+      "MedicineName": "OSNATE D TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENETICS",
+      "Disease": "Antioxidant Supplement",
+      "MedicineName": "ECOTEC SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENETICS",
+      "Disease": "Iron Deficiency/Anemia",
+      "MedicineName": "FERRICURE CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENETICS",
+      "Disease": "Hypertension",
+      "MedicineName": "NORACOR 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENETICS",
+      "Disease": "Diabetes",
+      "MedicineName": "BIFORGE 10/160MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENETICS",
+      "Disease": "Muscle Relaxant",
+      "MedicineName": "TIZOREL 2MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CIBEX",
+      "Disease": "Diabetes",
+      "MedicineName": "NESOGEN 40MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CIBEX",
+      "Disease": "Diabetes",
+      "MedicineName": "NESOGEN 20MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CIBEX",
+      "Disease": "Skin/Fungal Infection",
+      "MedicineName": "DERMOQUIN 4%",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CIBEX",
+      "Disease": "Skin/Fungal Infection",
+      "MedicineName": "DERMOQUIN 2%",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CIBEX",
+      "Disease": "Vitamin C Supplement",
+      "MedicineName": "CAL CEE 500MG (80)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CIBEX",
+      "Disease": "Vitamin C Supplement",
+      "MedicineName": "HIGH C 1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CIBEX",
+      "Disease": "Pain",
+      "MedicineName": "MEDIGESIC PLAIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CIBEX",
+      "Disease": "Pain",
+      "MedicineName": "MEDIGESIC FORT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CIBEX",
+      "Disease": "N/A",
+      "MedicineName": "BD-1CC SYRINGE",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CIBEX",
+      "Disease": "Diabetes",
+      "MedicineName": "IPRIDE SR TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MENDOZA & WOODWARDS",
+      "Disease": "Vitamin B Complex Injection",
+      "MedicineName": "CAMOPLEX SUPER INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MENDOZA & WOODWARDS",
+      "Disease": "Diabetes",
+      "MedicineName": "NEOGLIP 50/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MENDOZA & WOODWARDS",
+      "Disease": "Diabetes",
+      "MedicineName": "NEOGLIP 50/850",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMIX LABS",
+      "Disease": "Constipation",
+      "MedicineName": "RIFIN FORT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMIX LABS",
+      "Disease": "High Cholesterol",
+      "MedicineName": "LASTOLIP 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMIX LABS",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "CATAFEN 100MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMIX LABS",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "CATAFEN 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(General items)",
+      "Disease": "N/A",
+      "MedicineName": "OMEXIUM 400MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(General items)",
+      "Disease": "N/A",
+      "MedicineName": "LOTENSE 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(General items)",
+      "Disease": "N/A",
+      "MedicineName": "LOTENSE H TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(General items)",
+      "Disease": "Skin Infection/Eczema",
+      "MedicineName": "FUCORT B CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(General items)",
+      "Disease": "Skin Infection/Eczema",
+      "MedicineName": "FUCORT PLAIN CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "STAND PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "VILGET 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "STAND PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "VIGLEP FM 50/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "STAND PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "SELANZ SR TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "STAND PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "COLIC DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "STAND PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "COLIC SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "STAND PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "VENTEK 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "STAND PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "MOXI CLAVE 375",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "STAND PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "VITA 6 TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "STAND PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "BLUDOL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "EZ-COLIC DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "CAVID CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "URODONAL SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "TOPAGEN 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "VERONA PLUS CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "FLYTRO CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "TROMIT INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "BROLITE TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "Anemia/Iron Supplement",
+      "MedicineName": "HEMOCARE SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "SAFGO MET 1/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "SAFGO MET 2/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "PLANTCAL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "VMED 10/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "Muscle Relaxant",
+      "MedicineName": "TIZOREL 2MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCILIFE PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "XINOXY E OINT",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL GROUP",
+      "Disease": "Hypertension",
+      "MedicineName": "NORACOR 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL GROUP",
+      "Disease": "Diabetes",
+      "MedicineName": "BIFORGE 10/160MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL GROUP",
+      "Disease": "Iron Deficiency/Anemia",
+      "MedicineName": "FERRICURE CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GENERAL GROUP",
+      "Disease": "N/A",
+      "MedicineName": "FAIR AND PINK CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PEARL",
+      "Disease": "N/A",
+      "MedicineName": "CELD TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PEARL",
+      "Disease": "N/A",
+      "MedicineName": "FOSEDIC OINT",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PEARL",
+      "Disease": "N/A",
+      "MedicineName": "FOSEDIC CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PEARL",
+      "Disease": "N/A",
+      "MedicineName": "FOSEDIC B CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PEARL",
+      "Disease": "N/A",
+      "MedicineName": "DUETONE CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PEARL",
+      "Disease": "N/A",
+      "MedicineName": "SALINASE NOZAL SPARY",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PEARL",
+      "Disease": "N/A",
+      "MedicineName": "TOFRANIL 25MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PDH",
+      "Disease": "N/A",
+      "MedicineName": "PD CEF 500 INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PDH",
+      "Disease": "N/A",
+      "MedicineName": "PD CEF 250 INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PDH",
+      "Disease": "N/A",
+      "MedicineName": "PD CEF 1G INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PDH",
+      "Disease": "Skin Inflammation",
+      "MedicineName": "DIPROCORT CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PDH",
+      "Disease": "Skin Inflammation",
+      "MedicineName": "DIPROCORT OINT",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PDH",
+      "Disease": "N/A",
+      "MedicineName": "LAZMA CREAM (L)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PDH",
+      "Disease": "N/A",
+      "MedicineName": "MOVEN GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PDH",
+      "Disease": "N/A",
+      "MedicineName": "MOVEN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PACIFIC",
+      "Disease": "N/A",
+      "MedicineName": "COUGET 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PACIFIC",
+      "Disease": "N/A",
+      "MedicineName": "ACENEC 100MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AMSON PHARMA / SJ&G+CONTINENTAL",
+      "Disease": "N/A",
+      "MedicineName": "MOTAAR INJ (105)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AMSON PHARMA / SJ&G+CONTINENTAL",
+      "Disease": "Multivitamin",
+      "MedicineName": "NIRVANOL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "GIVA M 50/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "GIVA M 50/850",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "CEREMIN 800MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "CEREMIN SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "CEREMIN INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "FIXITIL 400MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "ONITA SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "VABRIN 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "CO DORZAL E/D",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "PRESTOR 5/160MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "PRESTOR 10/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "XANTHIN PLUS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "XANTHIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "DE CALC PLUS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "DE CALC PLAIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "CUTIS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry-over items)",
+      "Disease": "N/A",
+      "MedicineName": "CAVID CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BARRETT",
+      "Disease": "Tuberculosis",
+      "MedicineName": "RIFA 4",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BARRETT",
+      "Disease": "Asthma/Allergy",
+      "MedicineName": "AEROKAST 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BARRETT",
+      "Disease": "Asthma/Allergy",
+      "MedicineName": "AEROKAST 4MG SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BARRETT",
+      "Disease": "Tuberculosis",
+      "MedicineName": "RIFATOL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BARRETT",
+      "Disease": "Hypertension/Heart",
+      "MedicineName": "CARDIOLITE 100MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BARRETT",
+      "Disease": "N/A",
+      "MedicineName": "ARTIMOVE K 75MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BARRETT",
+      "Disease": "Tuberculosis",
+      "MedicineName": "RIFAPHIN H 450",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BARRETT",
+      "Disease": "N/A",
+      "MedicineName": "LIPIDIN 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BARRETT",
+      "Disease": "N/A",
+      "MedicineName": "BETROL 500MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ASIAN CONTINENTAL",
+      "Disease": "Hypertension/Heart",
+      "MedicineName": "CARDIOLITE 25MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ASIAN CONTINENTAL",
+      "Disease": "Hypertension/Heart",
+      "MedicineName": "CARDIOLITE 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ASIAN CONTINENTAL",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ZOLBI 40MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ASIAN CONTINENTAL",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ZOLBI 20MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ASIAN CONTINENTAL",
+      "Disease": "Vitamin B / Nerve Health",
+      "MedicineName": "NEUROBEDOXIN PLUS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ASIAN CONTINENTAL",
+      "Disease": "Nerve Pain",
+      "MedicineName": "NEUROMET INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ASIAN CONTINENTAL",
+      "Disease": "N/A",
+      "MedicineName": "NOPAIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ASIAN CONTINENTAL",
+      "Disease": "N/A",
+      "MedicineName": "RHINO SONE P",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ASIAN CONTINENTAL",
+      "Disease": "Abdominal Pain/IBS",
+      "MedicineName": "MEBEVER MR TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "TABROZ",
+      "Disease": "N/A",
+      "MedicineName": "SULZONE G INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "TABROZ",
+      "Disease": "N/A",
+      "MedicineName": "SULZONE 2G INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "TABROZ",
+      "Disease": "Abdominal Cramps",
+      "MedicineName": "SPASRID INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "TABROZ",
+      "Disease": "Nausea",
+      "MedicineName": "DOMEL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "TABROZ",
+      "Disease": "Nausea",
+      "MedicineName": "DOMFLASH 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAZOO",
+      "Disease": "N/A",
+      "MedicineName": "BRITINY TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAZOO",
+      "Disease": "N/A",
+      "MedicineName": "DURAGESIC TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAZOO",
+      "Disease": "N/A",
+      "MedicineName": "DURAGESIC FORT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAZOO",
+      "Disease": "Allergy",
+      "MedicineName": "CETRIX TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SEARL",
+      "Disease": "N/A",
+      "MedicineName": "ADRONIL INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "N/A",
+      "MedicineName": "BAMTA TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "N/A",
+      "MedicineName": "ZEEST M TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "N/A",
+      "MedicineName": "EZIUM 20MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "Digestive Enzyme",
+      "MedicineName": "PEPZYM TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "N/A",
+      "MedicineName": "ALGICAL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "N/A",
+      "MedicineName": "METODINE TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "Pain (Opioid)",
+      "MedicineName": "TRAMAL SR TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "N/A",
+      "MedicineName": "NYMSEL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "N/A",
+      "MedicineName": "FIXITIL SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "Pain (Opioid)",
+      "MedicineName": "TRAMAL 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(others on page)",
+      "Disease": "N/A",
+      "MedicineName": "CEREMIN 400MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Bacterial Infection (Injectable)",
+      "MedicineName": "GRASIL 100MG INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Bacterial Infection (Injectable)",
+      "MedicineName": "GRASIL 50MG INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Diabetes (Insulin)",
+      "MedicineName": "TEPH INSTA IV INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Diabetes (Insulin)",
+      "MedicineName": "TEPH INSTA 40MG SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Diabetes",
+      "MedicineName": "PROBASE 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Diabetes",
+      "MedicineName": "INOSITA PLUS 50/850",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Diabetes",
+      "MedicineName": "VIPTIN MET 50/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Asthma/Allergy",
+      "MedicineName": "MONTIKA 4MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Diabetes",
+      "MedicineName": "GEPRIDE MSR 2/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Diabetes",
+      "MedicineName": "GEPRIDE MSR 1/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Calcium Supplement",
+      "MedicineName": "VC CAL SUCHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Local Anesthetic",
+      "MedicineName": "LIGNOCAIN GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Diarrhea",
+      "MedicineName": "LOPORT 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "N/A",
+      "MedicineName": "NEEGE 40MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "N/A",
+      "MedicineName": "NEEGE 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Local Anesthetic (Spinal)",
+      "MedicineName": "BUPICAIN SP INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Constipation",
+      "MedicineName": "EZILAX TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "INHIBITOL CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "NEUCEF DS SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Pain/Fever",
+      "MedicineName": "ORNO 8MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Abdominal Cramps",
+      "MedicineName": "SPASFON TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Abdominal Cramps",
+      "MedicineName": "SPASFON INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "ENFLOR SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Anesthesia (Sedative)",
+      "MedicineName": "NIVADOR 500MG INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Anesthesia (Sedative)",
+      "MedicineName": "NIVADOR 250MG IM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "NIMIXA 550MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Cough",
+      "MedicineName": "DR KOFF",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHMONT",
+      "Disease": "Pregnancy Multivitamin",
+      "MedicineName": "PREGNOVIT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ICI PAKISTAN",
+      "Disease": "Depression/Anxiety",
+      "MedicineName": "MUSIDIN 2MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ICI PAKISTAN",
+      "Disease": "Hypertension",
+      "MedicineName": "ZESTRIL 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ICI PAKISTAN",
+      "Disease": "Allergy",
+      "MedicineName": "FEXET 120MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ICI PAKISTAN",
+      "Disease": "Allergy",
+      "MedicineName": "ONATO 1MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ICI PAKISTAN",
+      "Disease": "Allergy",
+      "MedicineName": "ONATO 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ICI PAKISTAN",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ETIPRO CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ICI PAKISTAN",
+      "Disease": "Vitamin Supplement",
+      "MedicineName": "OMEGA INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ICI PAKISTAN",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "OMEZOLE 40MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ICI PAKISTAN",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "NIXAF 550MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEO",
+      "Disease": "High Cholesterol",
+      "MedicineName": "ATORVA 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEO",
+      "Disease": "High Cholesterol",
+      "MedicineName": "ATORVA 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEO",
+      "Disease": "High Cholesterol",
+      "MedicineName": "ATORVA 40MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEO",
+      "Disease": "Potassium Supplement",
+      "MedicineName": "SAR-K 50",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEO",
+      "Disease": "Potassium Supplement",
+      "MedicineName": "SAR-K PLUS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEO",
+      "Disease": "Iron Injection (Anemia)",
+      "MedicineName": "OXIDIL 500MG IM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEO",
+      "Disease": "Iron Injection (Anemia)",
+      "MedicineName": "OXIDIL 500MG IV (1%)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEO",
+      "Disease": "Iron Injection (Anemia)",
+      "MedicineName": "OXIDIL 250MG IM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEO",
+      "Disease": "Iron Injection (Anemia)",
+      "MedicineName": "OXIDIL 250MG IV (1%)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "GLUCOMET PLAIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "X PLENDED 10MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "GVIA M 50/850",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "GVIA M 10/1000 XR",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "GVIA 10/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "GVIA 50/500 XR",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "AMODIP 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "AMODIP 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "AMODIP 10/160MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Ear Drops (Infection)",
+      "MedicineName": "RITHMO DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Multivitamin",
+      "MedicineName": "SUPRATIL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "AUGMENTIN (carry)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Diabetes (Insulin)",
+      "MedicineName": "TEPH INSTA 20MG SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MASS PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "FELDENE (carry)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AKHAI",
+      "Disease": "Muscle Relaxant",
+      "MedicineName": "ES-PRAMIST 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AKHAI",
+      "Disease": "Women's Health",
+      "MedicineName": "GYNORIT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AKHAI",
+      "Disease": "Diabetes",
+      "MedicineName": "NORMITAB 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AKHAI",
+      "Disease": "Diabetes",
+      "MedicineName": "NORMITAB PLUS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AKHAI",
+      "Disease": "High Cholesterol",
+      "MedicineName": "SIMVA 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AKHAI",
+      "Disease": "High Cholesterol",
+      "MedicineName": "ROATOR 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AKHAI",
+      "Disease": "Vitamin B12/Nerve Health",
+      "MedicineName": "MECOBAL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "DYCLO 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "DYCLO PLUS INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "DYCLO INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "DYCLO P TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Cough/Mucolytic",
+      "MedicineName": "BROMALEX TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "INDOKAST 10MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "MAXEF INJ 250MG IM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "MAXPAN 100MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "MAXPAN PLAIN SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Multivitamin/Energy",
+      "MedicineName": "REJUA TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Multivitamin/Energy",
+      "MedicineName": "REJUA SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "INDUS PHARMA",
+      "Disease": "Allergy",
+      "MedicineName": "ASTOTIFIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Ear Drops",
+      "MedicineName": "GLAZOL T DROPS",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Eye Infection",
+      "MedicineName": "TOBRA PLAIN DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Eye Infection",
+      "MedicineName": "TOBRA D DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Fertility",
+      "MedicineName": "FERTIL S CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Eye Inflammation",
+      "MedicineName": "CURIN E/D",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Eye Inflammation (Steroid)",
+      "MedicineName": "PREDNISYNTH E/D",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Eye Inflammation",
+      "MedicineName": "SANTODEX DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Bacterial Infection Eye",
+      "MedicineName": "COMOX DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Eye Infection",
+      "MedicineName": "EYFEM E/D",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Glaucoma (Eye)",
+      "MedicineName": "LATEP DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Bacterial Infection Eye",
+      "MedicineName": "MEGAMOX DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "DROPS GROUP",
+      "Disease": "Eye Allergy",
+      "MedicineName": "METHACLOR DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAMI",
+      "Disease": "Vitamin Injection",
+      "MedicineName": "BISLERI INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAMI",
+      "Disease": "Bacterial Infection (Injectable)",
+      "MedicineName": "BRINO 500MG INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAMI",
+      "Disease": "Vitamin D Injection",
+      "MedicineName": "D TRES INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAMI",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "ECASIL 600MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAMI",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "EFFIFLOX 500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAMI",
+      "Disease": "Osteoporosis (Bisphosphonate)",
+      "MedicineName": "ENIER 16MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAMI",
+      "Disease": "Osteoporosis (Bisphosphonate)",
+      "MedicineName": "ENIER 8MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Pain",
+      "MedicineName": "AWARDIN PLUS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Pain",
+      "MedicineName": "DIAGESIC P TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Pain",
+      "MedicineName": "DIAGESIC EXTRA TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Pain",
+      "MedicineName": "WILGESIC FORT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Nerve Pain",
+      "MedicineName": "DOLOGAB 50MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Cough/Mucolytic",
+      "MedicineName": "MYTIL 125MG SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Digestive Enzyme",
+      "MedicineName": "POLYPEP 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Cough",
+      "MedicineName": "SOFVAC 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Cough",
+      "MedicineName": "SOFVAC 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "XEFECTA 400MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Nerve Pain",
+      "MedicineName": "XILICA 75MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Eye Lubricant",
+      "MedicineName": "LUBREX GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Diabetes",
+      "MedicineName": "CO-EZIDAY TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "WILSONS & WERRK",
+      "Disease": "Diabetes",
+      "MedicineName": "ALOSITA MET 50/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CALAMOX DIU SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CALAMOX PLAIN SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CEFXONE 500 IV",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CEFXONE 1G INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CEFXONE 250MG INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "GENTIC 80MG INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Cough/Cold Syrup",
+      "MedicineName": "NICOTRIM SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "ORTHOFANEC INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Asthma/COPD",
+      "MedicineName": "SALBO INH",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "QUINOFLOX 500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Cough/Cold Syrup",
+      "MedicineName": "LINZIM SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "OLINC 300",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "OLINC 600",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "Q BAL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "Q BAL INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Folic Acid Supplement",
+      "MedicineName": "Q FOLIC TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "RABOSH 10MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BRYON PHARMA",
+      "Disease": "Multivitamin/Tonic",
+      "MedicineName": "CHEER UP TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BRYON PHARMA",
+      "Disease": "Joint Pain",
+      "MedicineName": "CARTI 5 GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BRYON PHARMA",
+      "Disease": "Joint Pain",
+      "MedicineName": "CARTI 5 TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BRYON PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "DEVENDA 250MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BRYON PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "DEVANDA 500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Hypertension/Heart",
+      "MedicineName": "ATERNLOL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "LANZIT 30MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "LANZOL CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "FLORAMEX CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Blood Thinner (Heart)",
+      "MedicineName": "PLATAGG-A TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Allergy",
+      "MedicineName": "ZAFNOL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "ZODIP TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Inflammation (Steroid)",
+      "MedicineName": "K-KORT INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Inflammation (Steroid)",
+      "MedicineName": "LONACORT INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "ZOSARTIN K TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "DICLOZAF INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "LINCOZAF INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "High Cholesterol",
+      "MedicineName": "SIMVAZAF 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ZAFA PHARMA",
+      "Disease": "High Cholesterol",
+      "MedicineName": "SIMVAZAF 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "NAPROX 250MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "NAPROX 500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "PROXEN 500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Hypertension/Diuretic",
+      "MedicineName": "TANSIN 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Hypertension/Diuretic",
+      "MedicineName": "TANSIN DS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Hypertension/Diuretic",
+      "MedicineName": "TANSIN DIU TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Hypertension",
+      "MedicineName": "TELMIS 80MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Hypertension",
+      "MedicineName": "TELMIS A 40/10",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Hypertension",
+      "MedicineName": "TELMIS A 80/10",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ONSET TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ONSET INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Pain (Opioid)",
+      "MedicineName": "DARVIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Pain/Fever",
+      "MedicineName": "MODRIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEDIC",
+      "Disease": "Depression",
+      "MedicineName": "SENSIVAL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "NABIQASIM",
+      "Disease": "Anxiety",
+      "MedicineName": "BESPAR 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "NABIQASIM",
+      "Disease": "Anxiety",
+      "MedicineName": "BUZON 3MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "NABIQASIM",
+      "Disease": "Anxiety",
+      "MedicineName": "BUZON 2MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "NABIQASIM",
+      "Disease": "Women's Health/Vaginal Infection",
+      "MedicineName": "GYNOSPORIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "NABIQASIM",
+      "Disease": "Fertility",
+      "MedicineName": "DEPRICAP 20MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "NABIQASIM",
+      "Disease": "Fertility",
+      "MedicineName": "CLOMITAB 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Hypertension",
+      "MedicineName": "EMHART 5/80",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "XAAR 100MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Hypertension",
+      "MedicineName": "CARDURA 2MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "GLIMET 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Calcium/Vitamin D Supplement",
+      "MedicineName": "CAL ONE D SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "ENZ 10 CAP 100MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "ENZ 10 CAP 50MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "ORINASE MET 2 TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Asthma/COPD",
+      "MedicineName": "REVOLIZER INH",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ADVANTEC TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ADVANT 16MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "AMCLAVE 625MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CEFIGET 400MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CELBEXX 200MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Digestive Health",
+      "MedicineName": "GUT CARE SACHET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CO-AVSTAR 160/25MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "COVAM 10/160MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Diabetes (Insulin)",
+      "MedicineName": "INSUGET 100ML VIAL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "LARINEX 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "LEFLOX 500MG INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Cough (Pediatric)",
+      "MedicineName": "MIURA D DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Asthma/Allergy",
+      "MedicineName": "MONTIGET 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Vertigo",
+      "MedicineName": "NORPLAT 75MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "RAZODEX 60MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "ELEEZO CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "ELEEZO SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "RISEK INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Vertigo/Migraine Prevention",
+      "MedicineName": "SIBELIUM CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Fungal Infection",
+      "MedicineName": "SPORANOX CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Enlarged Prostate (BPH)",
+      "MedicineName": "TAMSOL 0.4MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Enlarged Prostate (BPH)",
+      "MedicineName": "TAMSOLIN 0.4MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "TREVIAMET 50/1000 XR",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "TREVIAMET 50/500XR TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Allergy",
+      "MedicineName": "ZAFON FAST TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "ZAVGET 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Asthma/COPD",
+      "MedicineName": "XALTIDE INH",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Vitamin D Injection",
+      "MedicineName": "D4U INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "OSAM D TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GETZ PHARMA",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "GABICA 100",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "Epilepsy",
+      "MedicineName": "ACYLEX 400",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "Epilepsy",
+      "MedicineName": "ACYLEX 200",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "Epilepsy",
+      "MedicineName": "ACYLEX 800",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ESOMEGA 40MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "High Cholesterol",
+      "MedicineName": "AURORA 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "High Cholesterol",
+      "MedicineName": "AURORA 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "Hypertension",
+      "MedicineName": "XAVOR 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "Hypertension",
+      "MedicineName": "XAVOR DIU TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "VANCOMYCIN INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "Erectile Dysfunction",
+      "MedicineName": "DYNATIC TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "FEROZ'SONS",
+      "Disease": "Heart (Angina)",
+      "MedicineName": "NITROMET 2.6MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEVO PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "X-PLANDID 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PHARMEVO PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "X-PLANDID 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BOSCH PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CALAMOX IG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BOSCH PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CALAMOX 375 TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BOSCH PHARMA",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CALAMOX 625 TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "LERACE 500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "MEXIT 75MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "MYTEKA 4MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Nerve Pain",
+      "MedicineName": "NEOGAB 100MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Nerve Pain",
+      "MedicineName": "NEOGAB 300 CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "OMSANA 40MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "PIOZER 30MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "PIOZER 45MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "PITALO 4MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "QUEL 25MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "COPD (Roflumilast)",
+      "MedicineName": "ROLIP 5MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "COPD (Roflumilast)",
+      "MedicineName": "ROLIP 10MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "COPD (Roflumilast)",
+      "MedicineName": "ROLIP 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "ROSULIN 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "SITA 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "SITAGLUMET 50/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "SITAGLU 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "SITAGLU 100MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "SITAGLUMET 50/850",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Multivitamin",
+      "MedicineName": "SUPRAVIT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "XIFECTA 400MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "XOBIX 7.5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "XOBIX 15MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "ZEEGAB 100MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "ZEEGAB 150MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "ZEEGAB 50MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "ZEEGAB 75MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ZOPENT 40MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ZOPENT INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "XIKARAPID TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "CIPLET 250MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "CIPLET 500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "VIPTIN 50/500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Cough/Mucolytic",
+      "MedicineName": "NEBIX 2.5",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Cough/Mucolytic",
+      "MedicineName": "NEBIX 5",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Cough/Mucolytic",
+      "MedicineName": "NEBIX 10",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Osteoporosis",
+      "MedicineName": "BONE LIFT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Heart Failure/Hypertension",
+      "MedicineName": "CARVEDA 12.5MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Heart Failure/Hypertension",
+      "MedicineName": "CARVEDA 25MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "GABLIN 150MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "GABLIN 75MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "DAN D INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "GALZAMET 50/850",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "GALZAMET 50/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "CEF-OD SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "CEF-OD CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ESPRA 20MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ESPRA 40MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Blood Thinner",
+      "MedicineName": "NOCLOT 75MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Multivitamin",
+      "MedicineName": "ONCE A DAY MEN",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Multivitamin",
+      "MedicineName": "ONCE A DAY WOMEN",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "PROSTAM 0.4MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ROTA INH",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "SITAMET 50/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "SITAMET 50/1000 XR",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "VALAM 5/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "VALAM 5/80",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "VALAM 10/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "JARDY-MET 5/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "EMHART 10/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CCL PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "EMHART 5/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Hair Loss",
+      "MedicineName": "MINOXIN PLUS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Pain/Inflammation (Muscle)",
+      "MedicineName": "PHLOGIN INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Pain/Inflammation (Muscle)",
+      "MedicineName": "PHLOGIN GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Intestinal Infection",
+      "MedicineName": "XIFAXA 550MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "RYXONE 1G INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "PYODINE GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Allergy",
+      "MedicineName": "AZOTEK 250MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Allergy",
+      "MedicineName": "AZOTEK 500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "BROTIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "CLOZOX H CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "IMUNOL OIN",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "DOPLET D3 INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ESOFIL 20MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "ESOFIL 40MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "LOCUS 250MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "HIVATE CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "HIVATE LOTION",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "HIVATE OINT",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "LUCID 250MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Skin (Antihistamine)",
+      "MedicineName": "NOCTIS 40MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Skin (Antihistamine)",
+      "MedicineName": "NOCTIS 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Skin Inflammation",
+      "MedicineName": "PROVATE G OINT",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Skin Inflammation",
+      "MedicineName": "PROVATE PLAIN LOTION",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Skin Inflammation",
+      "MedicineName": "PROVATE S LOTION",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "TICOVATE NOZAL SUPARY",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Fungal Infection",
+      "MedicineName": "TERBISIL 125MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "N/A",
+      "MedicineName": "SOFAC GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Diabetes",
+      "MedicineName": "XANGLU 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Diabetes",
+      "MedicineName": "XANGLU 5/1000 XR",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Diabetes",
+      "MedicineName": "XANGLU 5/850",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "Diabetes",
+      "MedicineName": "XENGLU 5/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SAFFRON",
+      "Disease": "High Cholesterol",
+      "MedicineName": "ROSTOR 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GT PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "CHELIRON TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GT PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "LOPHOS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GT PHARMA",
+      "Disease": "Calcium/Vitamin D Supplement",
+      "MedicineName": "CAGEN D TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GT PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "CLEAR CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GT PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ED 3 INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "CEFIM SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "CITANEW 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "Fertility",
+      "MedicineName": "FERTAB TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "DAPA 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "DAPAMET 5/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "DAPAMET 5/850",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "DESTINA 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "DULAN 20",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "DULAN 30MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "DULAN 60MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "HI LACTA 500 CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "EZILEX TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "FMET 5/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "HITOP 100MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ITAGLIP 50MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ITAGLIP 50/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "JARDEY MET 5/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "JARDEY MET 12.5/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "LEFORA 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "High Cholesterol",
+      "MedicineName": "LOCHOL 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HILTON PHARMA",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "LERACE 250MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "MITS 15MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "TAGIPMET 50/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Cough/Mucolytic",
+      "MedicineName": "NEBIX 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Liver Support",
+      "MedicineName": "REPAR 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ESSO 20",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ESSO 40",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ESSO INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "SITON PLUS CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "Abdominal Cramps/IBS",
+      "MedicineName": "SPASMOMEN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "PAGALIN 100MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "PAGALIN 50MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "PAGALIN 75MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "Pain",
+      "MedicineName": "BEZAL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ZEESPA TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "PURPAL 2MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "THIOLOX CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SHAIGAN PHARMA",
+      "Disease": "Joint Pain",
+      "MedicineName": "ARTHO PLUS",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCOTMANN PHARM",
+      "Disease": "N/A",
+      "MedicineName": "SUNNY D INJ 5 PACK",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCOTMANN PHARM",
+      "Disease": "N/A",
+      "MedicineName": "WIL D CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCOTMANN PHARM",
+      "Disease": "Vertigo",
+      "MedicineName": "VISAVIT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCOTMANN PHARM",
+      "Disease": "Multivitamin",
+      "MedicineName": "NIRVANOL 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCOTMANN PHARM",
+      "Disease": "N/A",
+      "MedicineName": "D SUN SATE CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "SCOTMANN PHARM",
+      "Disease": "N/A",
+      "MedicineName": "ACEBEX CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PARAMOUNT PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "FLOWPIL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PARAMOUNT PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "COL D3 INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PARAMOUNT PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "VALRON GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PARAMOUNT PHARMA",
+      "Disease": "Joint Pain/Inflammation",
+      "MedicineName": "PIROXIKAN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PARAMOUNT PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "HEFLIN 75MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PARAMOUNT PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ESEFT 40MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PARAMOUNT PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "OCTIDOL PLUS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PARAMOUNT PHARMA",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "NITAPRIDE 1MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "PARAMOUNT PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "R-VASTIN 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MACTER PHARMA",
+      "Disease": "Asthma/COPD",
+      "MedicineName": "INSPIROL INH",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MACTER PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "BACLIN 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MACTER PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "SANTE 40MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MACTER PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "MORCET 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MACTER PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "VENTICORT 200MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MACTER PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "GLIO P 2/30",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MACTER PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "YTIG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MACTER PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "YTIG PLUS TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MACTER PHARMA",
+      "Disease": "Pain",
+      "MedicineName": "NUBERAL FORT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MACTER PHARMA",
+      "Disease": "Enlarged Prostate (BPH)",
+      "MedicineName": "SILO 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AGP PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "VELON M 50/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AGP PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "VELON M 50/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AGP PHARMA",
+      "Disease": "Nausea/Digestive",
+      "MedicineName": "MOTILIUM V TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AGP PHARMA",
+      "Disease": "Constipation",
+      "MedicineName": "TERLAX 2MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AGP PHARMA",
+      "Disease": "Hypertension",
+      "MedicineName": "SARTAN 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "AGP PHARMA",
+      "Disease": "Vitamin/Fatty Acid Supplement",
+      "MedicineName": "EFAMOL ACTIVE 500 CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BROOKES",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "ARNIL 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BROOKES",
+      "Disease": "Scar Treatment (Topical)",
+      "MedicineName": "CONTRACTUBEX GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BROOKES",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "GENLEO 250MG TAB (60)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BROOKES",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "GELCIPRO 250MG TAB (65)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BROOKES",
+      "Disease": "Hair Loss",
+      "MedicineName": "HAIR MAX 0.5%",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "BROOKES",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "OMESEC CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "ENDTRON 8MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Allergy",
+      "MedicineName": "ZOBLIN 75MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Asthma/Allergy",
+      "MedicineName": "MYLAKAST 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Diabetes",
+      "MedicineName": "ZOVANTA 40MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Hypertension",
+      "MedicineName": "VALTEC 5/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Hypertension",
+      "MedicineName": "VALTEC 10/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Hypertension",
+      "MedicineName": "VALTEC 160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "EMPAA 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "EMPAA 25MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "N/A",
+      "MedicineName": "EMPAA 12.5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Asthma/Allergy",
+      "MedicineName": "CELLKAST 10MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(carry over)",
+      "Disease": "Muscle Pain (Topical)",
+      "MedicineName": "DEEP HEAT SPRAY",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MERCK",
+      "Disease": "N/A",
+      "MedicineName": "PCAM GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MERCK",
+      "Disease": "Depression",
+      "MedicineName": "DEPEX 20MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MERCK",
+      "Disease": "N/A",
+      "MedicineName": "NEUROCOLINE INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MERCK",
+      "Disease": "N/A",
+      "MedicineName": "MERCIP 500MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "MERCK",
+      "Disease": "N/A",
+      "MedicineName": "SITAPHASE 50/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Pain (Topical)",
+      "MedicineName": "ACHFREE GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Acne Treatment (Topical)",
+      "MedicineName": "ADAPCO CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Acne Treatment (Topical)",
+      "MedicineName": "ADAPCO FORT GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Acne Treatment (Topical)",
+      "MedicineName": "ADAPCO GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Inflammation",
+      "MedicineName": "ADVOCORT OINT",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Blood Thinner (Aspirin)",
+      "MedicineName": "ASCARD 150MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "ASCOLIVE LOTION",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Inflammation",
+      "MedicineName": "BETADERM N CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Infection",
+      "MedicineName": "BETAGENIC CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Infection",
+      "MedicineName": "BETAGENIC OINT",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "BYNEVOL 2.5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Diabetes",
+      "MedicineName": "BYNEVOL 5MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Inflammation",
+      "MedicineName": "CLOBEDERM CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Inflammation",
+      "MedicineName": "CLOBEDERM LOTION",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Inflammation",
+      "MedicineName": "CLOBEDERM S LOTION",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Fungal Infection",
+      "MedicineName": "CONAZ CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Fungal Infection",
+      "MedicineName": "CONAZ LOTION",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "CHYMORL FORT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Infection (Acne)",
+      "MedicineName": "CLYCIN T LOTION",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Infection (Acne)",
+      "MedicineName": "CLYCIN V CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Women's Health (Hormonal)",
+      "MedicineName": "CYPRODIOL TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin (Hair Removal)",
+      "MedicineName": "DEPILES CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "N/A",
+      "MedicineName": "DIOPLUS 10/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Pain",
+      "MedicineName": "DISTALGESIC TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Acidity/GERD",
+      "MedicineName": "FAMOT 40MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Infection/Eczema",
+      "MedicineName": "FUCORT B CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Infection/Eczema",
+      "MedicineName": "FUCORT H CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Infection/Eczema",
+      "MedicineName": "FUCORT OINT",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Infection",
+      "MedicineName": "FUDIC B CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Infection",
+      "MedicineName": "FUDIC CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "ATCO PHARMA",
+      "Disease": "Skin Infection",
+      "MedicineName": "FUDIC H CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Fungal/Skin Infection",
+      "MedicineName": "HYDEROQUIN 2%",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Fungal/Skin Infection",
+      "MedicineName": "HYDEROQUIN 4%",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "N/A",
+      "MedicineName": "HEALIT OINT",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Fungal/Dandruff",
+      "MedicineName": "KETOWIN LOTION",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Skin/Fungal Infection",
+      "MedicineName": "LOTRICORT CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Skin/Fungal Infection",
+      "MedicineName": "LOTRICORT G CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Skin Pigmentation",
+      "MedicineName": "MELAS CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Scabies",
+      "MedicineName": "SCABION FORT LOTION",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "SYNGAB 100MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Nerve Pain/Epilepsy",
+      "MedicineName": "SYNGAB 50MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Fungal Skin Infection",
+      "MedicineName": "TERBIDERM TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Fungal Skin Infection",
+      "MedicineName": "TERBIDER CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "N/A",
+      "MedicineName": "VIGLIP M 50/1000",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Diabetes",
+      "MedicineName": "VIPTIN MET 50/500",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "N/A",
+      "MedicineName": "VISOL GET",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "(unlabeled continuation, likely ATCO)",
+      "Disease": "Blood Thinner",
+      "MedicineName": "WARFIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHNOON",
+      "Disease": "HIV/AIDS",
+      "MedicineName": "COMBIVIOR 400MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHNOON",
+      "Disease": "COPD",
+      "MedicineName": "TIOVAIR PLAIN CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHNOON",
+      "Disease": "N/A",
+      "MedicineName": "LIPREX 10MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHNOON",
+      "Disease": "N/A",
+      "MedicineName": "LIPIREX 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHNOON",
+      "Disease": "N/A",
+      "MedicineName": "LIPIREX 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "HIGHNOON",
+      "Disease": "Hypertension",
+      "MedicineName": "BLOKIUM 50MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "N/A",
+      "MedicineName": "DOU CONDOM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Fungal Infection (Oral)",
+      "MedicineName": "NILSTATE DROP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Acidity/Indigestion",
+      "MedicineName": "CITROSODA ORANGE",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Diabetes (Insulin)",
+      "MedicineName": "HUMULIN 70/30 (NET)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Fungal Infection (Skin)",
+      "MedicineName": "HYBINA F CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Hypertension",
+      "MedicineName": "ZESTRIL 5MG TAB",
+      "Salt": "",
+      "Weight": "5mg",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Diabetes",
+      "MedicineName": "VILDRAZOL-M",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Anxiety",
+      "MedicineName": "LEZRA 2.5 TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Inflammation/Allergy (Steroid)",
+      "MedicineName": "DECADRON ICC INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Diabetes (Insulin)",
+      "MedicineName": "MIXTARD VIAL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "N/A",
+      "MedicineName": "P CAM GEL",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Pain/Fever (Pediatric)",
+      "MedicineName": "DISPROL SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "CEPOREX 500MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Multivitamin",
+      "MedicineName": "NS-100 (30)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Vertigo/Nausea",
+      "MedicineName": "STUGERON FORTE CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Vertigo/Nausea",
+      "MedicineName": "STUGERON PLAIN TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "AMPICLOX 500MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "AMOXIL 500MG CAP",
+      "Salt": "",
+      "Weight": "500mg",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "AUGMENTIN BD (NET)",
+      "Salt": "",
+      "Weight": "1g",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "FELDENE 20MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Pain/Inflammation",
+      "MedicineName": "FELDENE 20MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Fertility",
+      "MedicineName": "GONADIL F CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Sore Throat",
+      "MedicineName": "STREPSIL LEMON (1350)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "N/A",
+      "MedicineName": "LAME 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Hypertension",
+      "MedicineName": "NORVASEC 10MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Hypertension",
+      "MedicineName": "NORVASC 5MG",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "VIBRAMYCIN CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Menstrual Pain",
+      "MedicineName": "TRIHAMIC TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "DALACIN C 300MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "DALACAIN C 150MG CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "VELOSEF 250 INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "VELOSEF 500 INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "VELOSEF 1G INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Intestinal Worms",
+      "MedicineName": "VERMOX TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Women's Health (Progesterone)",
+      "MedicineName": "CYCLOGEST 200MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Muscle Pain (Topical)",
+      "MedicineName": "WINTOGENO BALM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Tuberculosis",
+      "MedicineName": "MYRIN P FORT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Pain/Fever",
+      "MedicineName": "CALPOL SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "N/A",
+      "MedicineName": "CENOVA CHEWABLE TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Tetanus Immunoglobulin",
+      "MedicineName": "IMATET INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Anxiety",
+      "MedicineName": "LEXOTANIL 3MG TAB (NET)",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Inflammation (Steroid)",
+      "MedicineName": "NEUPRED SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Asthma/COPD",
+      "MedicineName": "VENTOLIN EXP SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "N/A",
+      "MedicineName": "KENACOM CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Pain/Fever",
+      "MedicineName": "PONST FORT TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Bacterial Infection",
+      "MedicineName": "ROCIPHIN 500 IV INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "GSK",
+      "Disease": "Skin/Fungal Infection",
+      "MedicineName": "TRAVOCORT CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "NEUTRO PHARMA",
+      "Disease": "Vitamin D Injection",
+      "MedicineName": "INDROP D CAP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "NEUTRO PHARMA",
+      "Disease": "Vitamin D Injection",
+      "MedicineName": "INDROP D INJ",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "EXCEL PHARMA",
+      "Disease": "Appetite Stimulant",
+      "MedicineName": "HUNGER UP SYP",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "EXCEL PHARMA",
+      "Disease": "Anxiety/Depression",
+      "MedicineName": "SEROFT 100MG TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "EXCEL PHARMA",
+      "Disease": "Skin Infection (Antibacterial)",
+      "MedicineName": "SULPHA N CREAM",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CELL LABORATORIES",
+      "Disease": "Diabetes",
+      "MedicineName": "METLIP 50/850",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CELL LABORATORIES",
+      "Disease": "Hypertension",
+      "MedicineName": "ALVOASTAN 5/160",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CELL LABORATORIES",
+      "Disease": "Hypertension",
+      "MedicineName": "ALVOASTAN DS",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    },
+    {
+      "Category": "Allopathic",
+      "Company": "CELL LABORATORIES",
+      "Disease": "Calcium/Vitamin D Supplement",
+      "MedicineName": "CALCARE D TAB",
+      "Salt": "",
+      "Weight": "N/A",
+      "Price": 100,
+      "Stock": 100
+    }
+  ]
+}

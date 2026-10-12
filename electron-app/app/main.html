@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al Rehmat Hospital — Medical Inventory</title>
+<link rel="stylesheet" href="vendor/tailwind.css">
+<script src="vendor/supabase.js"></script>
+<style>
+* { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
+
+:root {
+  --teal: #0B8B7A;
+  --teal-light: #E6F7F4;
+  --teal-mid: #0d9488;
+  --bg: #F7F8FA;
+  --card: #FFFFFF;
+  --border: #EEF0F4;
+  --text: #111827;
+  --muted: #6B7280;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,0.1), 0 8px 32px rgba(0,0,0,0.06);
+}
+
+body { background: var(--bg); }
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 10px; }
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(12px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+@keyframes countUp {
+  from { opacity:0; transform:translateY(6px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+@keyframes pulse-dot {
+  0%,100% { opacity:1; transform:scale(1); }
+  50%      { opacity:0.6; transform:scale(1.3); }
+}
+@keyframes slideIn {
+  from { opacity:0; transform:translateX(-8px); }
+  to   { opacity:1; transform:translateX(0); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.fade-up { animation: fadeUp 0.35s ease forwards; }
+.fade-up-1 { animation: fadeUp 0.35s 0.05s ease both; }
+.fade-up-2 { animation: fadeUp 0.35s 0.1s ease both; }
+.fade-up-3 { animation: fadeUp 0.35s 0.15s ease both; }
+.fade-up-4 { animation: fadeUp 0.35s 0.2s ease both; }
+.slide-in  { animation: slideIn 0.2s ease forwards; }
+
+/* STATS CARDS */
+.stat-card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  transition: all 0.25s ease;
+  cursor: default;
+}
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+}
+.stat-num {
+  font-size: 28px; font-weight: 800;
+  color: var(--text); line-height: 1;
+  animation: countUp 0.5s ease;
+}
+.stat-label {
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--muted); margin-top: 2px;
+}
+.stat-icon {
+  width: 44px; height: 44px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px; flex-shrink: 0;
+}
+
+/* RECENTLY VIEWED */
+.rv-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 12px; border-radius: 20px;
+  background: var(--card); border: 1px solid var(--border);
+  font-size: 12px; font-weight: 500; color: var(--text);
+  cursor: pointer; white-space: nowrap;
+  transition: all 0.2s ease; flex-shrink: 0;
+}
+.rv-chip:hover {
+  background: var(--teal-light);
+  border-color: var(--teal-mid);
+  color: var(--teal);
+  transform: translateY(-1px);
+}
+.rv-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--teal-mid); flex-shrink: 0;
+}
+
+/* COLUMN CARDS */
+.col-card {
+  background: var(--card);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  display: flex; flex-direction: column;
+  overflow: hidden; height: 100%;
+  transition: box-shadow 0.2s;
+}
+.col-header {
+  padding: 14px 16px 10px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap-8: 8px;
+  min-width: 0;
+}
+.col-title {
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.07em; text-transform: uppercase;
+  color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  min-width: 0;
+}
+.col-accent { width: 3px; height: 14px; border-radius: 2px; background: var(--teal-mid); margin-right: 8px; flex-shrink:0; }
+
+
+.organ-btn {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 4px; cursor: pointer; padding: 8px 4px; border-radius: 12px;
+  transition: all 0.2s ease; border: 2px solid transparent;
+}
+.organ-btn:hover { background: var(--teal-light); border-color: #99f6e4; transform: translateY(-1px); }
+.organ-btn.active { background: var(--teal-mid); border-color: var(--teal-mid); }
+.organ-btn.active .organ-icon { background: rgba(255,255,255,0.2); border-color: transparent; }
+.organ-btn.active .organ-label { color: white; }
+.organ-icon {
+  width: 42px; height: 42px; border-radius: 50%;
+  background: var(--teal-light); border: 2px solid #b2f0e8;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 19px; color: var(--teal-mid); transition: all 0.2s;
+}
+.organ-btn.active .organ-icon { color: white; }
+.organ-label { font-size: 10px; color: var(--muted); font-weight: 600; text-align: center; }
+
+
+.list-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 9px 14px; cursor: pointer;
+  transition: all 0.15s ease;
+  border-left: 3px solid transparent;
+}
+.list-item:hover { background: var(--teal-light); border-left-color: #b2f0e8; }
+.list-item.active {
+  background: var(--teal-light);
+  border-left-color: var(--teal-mid);
+}
+.list-item.active .item-name { color: var(--teal); font-weight: 600; }
+.item-icon {
+  width: 30px; height: 30px; border-radius: 8px;
+  background: var(--teal-light); display: flex; align-items: center;
+  justify-content: center; font-size: 14px; color: var(--teal-mid); flex-shrink: 0;
+  transition: all 0.15s;
+}
+.list-item.active .item-icon { background: var(--teal-mid); color: white; }
+.item-name { font-size: 13px; font-weight: 500; color: var(--text); }
+.item-count { font-size: 11px; color: var(--muted); }
+
+
+.company-avatar {
+  width: 30px; height: 30px; border-radius: 8px;
+  background: var(--teal-light); border: 1.5px solid #b2f0e8;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 10px; font-weight: 800; color: var(--teal); flex-shrink: 0;
+  transition: all 0.15s;
+}
+.list-item.active .company-avatar { background: var(--teal-mid); color: white; border-color: transparent; }
+
+
+.med-table-header {
+  display: grid;
+  grid-template-columns: 3fr 1.2fr auto auto;
+  gap: 8px; padding: 8px 16px;
+  background: #F9FAFB;
+  border-bottom: 1px solid var(--border);
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--muted);
+}
+.med-row {
+  display: grid;
+  grid-template-columns: 3fr 1.2fr auto auto;
+  gap: 8px; align-items: center;
+  padding: 10px 16px; cursor: pointer;
+  border-bottom: 1px solid #F3F4F6;
+  transition: all 0.15s ease;
+  border-left: 3px solid transparent;
+}
+.med-row:hover { background: var(--teal-light); border-left-color: #b2f0e8; }
+.med-row.active { background: var(--teal-light); border-left-color: var(--teal-mid); }
+.med-row.active .med-name { color: var(--teal); font-weight: 600; }
+.med-name { font-size: 13px; font-weight: 500; color: var(--text); }
+.med-weight { font-size: 11px; color: var(--muted); }
+.med-company-text { font-size: 12px; color: var(--muted); }
+.med-price { font-size: 13px; font-weight: 700; color: var(--teal); white-space: nowrap; }
+
+/* STOCK BADGES */
+.badge {
+  padding: 2px 8px; border-radius: 20px;
+  font-size: 10px; font-weight: 600; white-space: nowrap;
+}
+.badge-green  { background: #D1FAE5; color: #065F46; }
+.badge-orange { background: #FEF3C7; color: #92400E; }
+.badge-red    { background: #FEE2E2; color: #991B1B; }
+
+/* DETAIL CARD */
+.detail-field {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 10px 0; border-bottom: 1px solid #F3F4F6;
+}
+.detail-field:last-child { border-bottom: none; }
+.detail-icon {
+  width: 32px; height: 32px; border-radius: 8px;
+  background: var(--teal-light);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; flex-shrink: 0; margin-top: 1px;
+}
+.detail-label { font-size: 11px; color: var(--muted); font-weight: 500; }
+.detail-value { font-size: 13px; color: var(--text); font-weight: 600; margin-top: 1px; }
+
+/* PRINT BUTTON */
+.print-btn {
+  width: 100%; padding: 12px 6px;
+  background: linear-gradient(135deg, #0B8B7A, #0d9488);
+  color: white; border: none; border-radius: 12px;
+  font-size: 13px; font-weight: 600; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  white-space: nowrap; overflow: hidden;
+  transition: all 0.2s ease; box-shadow: 0 4px 12px rgba(11,139,122,0.3);
+}
+.print-btn span { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.print-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(11,139,122,0.4);
+}
+.print-btn:active { transform: translateY(0); }
+
+/* TOGGLE ANIMATION */
+.cat-toggle {
+  display: flex; background: #F3F4F6; border-radius: 10px; padding: 3px; gap: 2px;
+  position: relative;
+}
+.cat-toggle-slider {
+  position: absolute;
+  top: 3px; bottom: 3px;
+  border-radius: 8px;
+  background: var(--teal-mid);
+  box-shadow: 0 2px 8px rgba(13,148,136,0.35);
+  transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 0;
+}
+.cat-btn {
+  padding: 6px 16px; border-radius: 8px; font-size: 13px; font-weight: 600;
+  cursor: pointer; border: none; transition: color 0.25s ease;
+  position: relative; z-index: 1; background: transparent;
+}
+.cat-btn.active  { color: white; }
+.cat-btn.inactive { color: var(--muted); }
+.cat-btn.inactive:hover { color: var(--text); }
+
+/* COLUMNS FADE TRANSITION on category change */
+@keyframes colFadeIn {
+  from { opacity:0; transform: translateY(8px) scale(0.99); }
+  to   { opacity:1; transform: translateY(0) scale(1); }
+}
+.col-animate {
+  animation: colFadeIn 0.3s ease forwards;
+}
+.col-animate-1 { animation: colFadeIn 0.3s 0.03s ease both; }
+.col-animate-2 { animation: colFadeIn 0.3s 0.07s ease both; }
+.col-animate-3 { animation: colFadeIn 0.3s 0.11s ease both; }
+.col-animate-4 { animation: colFadeIn 0.3s 0.15s ease both; }
+.col-animate-5 { animation: colFadeIn 0.3s 0.19s ease both; }
+
+/* STATS FADE on category change */
+@keyframes statPop {
+  from { opacity:0; transform: scale(0.95) translateY(6px); }
+  to   { opacity:1; transform: scale(1) translateY(0); }
+}
+.stat-pop { animation: statPop 0.3s ease forwards; }
+
+/* LIVE DOT */
+.live-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: #10B981; display: inline-block;
+  animation: pulse-dot 2s infinite;
+}
+.live-dot.error { background: #EF4444; animation: none; }
+
+/* FAV BUTTON */
+.fav-btn { cursor: pointer; transition: transform 0.2s; }
+.fav-btn:hover { transform: scale(1.2); }
+
+/* RESIZER */
+.resizer {
+  width: 6px; background: transparent; cursor: col-resize;
+  flex-shrink: 0; position: relative; z-index: 10;
+  transition: background 0.2s;
+}
+.resizer:hover, .resizer.dragging { background: rgba(13,148,136,0.2); border-radius: 3px; }
+
+/* SEARCH */
+.search-input {
+  width: 100%; background: #F3F4F6; border: 1.5px solid transparent;
+  border-radius: 10px; padding: 8px 16px 8px 38px;
+  font-size: 13px; color: var(--text); outline: none;
+  transition: all 0.2s;
+}
+.search-input:focus { background: white; border-color: var(--teal-mid); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
+
+/* KEYBOARD SHORTCUT HINT */
+.kbd {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: #F3F4F6; border: 1px solid #D1D5DB;
+  border-radius: 4px; padding: 1px 5px;
+  font-size: 10px; font-weight: 600; color: var(--muted);
+}
+
+/* PRINT STYLES */
+@media print {
+  body > * { display: none !important; }
+  #printArea.show-print { display: block !important; }
+  #printAreaRx.show-print { display: block !important; }
+}
+#printArea { display: none; }
+#printAreaRx { display: none; }
+
+/* PRESCRIPTION PAD (Print Prescription / Cart) — A4, matches recipt-rehmat.pdf */
+@page { size: A4; margin: 0; }
+#printAreaRx .rx-page {
+  width: 210mm; min-height: 297mm; box-sizing: border-box;
+  padding: 42pt 31pt 0 18pt;
+  font-family: Arial, 'Helvetica Neue', sans-serif;
+  background: #fff; color: #000;
+  display: flex; flex-direction: column;
+}
+/* Header (centered) */
+#printAreaRx .rx-header { text-align: center; }
+#printAreaRx .rx-title { font-size: 27pt; font-weight: 800; color: #000; line-height: 1.2; letter-spacing: 0.3pt; }
+#printAreaRx .rx-header .rx-tagline { font-size: 13pt; font-weight: 400; color: #000; line-height: 1.35; margin-top: 3pt; }
+/* Doctor row (left) + Date (right) */
+#printAreaRx .rx-docrow { display: flex; justify-content: space-between; align-items: center; margin-top: 24pt; }
+#printAreaRx .rx-docname { font-size: 17pt; font-weight: 800; color: #000; line-height: 1.15; }
+#printAreaRx .rx-quals { font-size: 17pt; font-weight: 800; color: #000; line-height: 1.15; margin-top: 7pt; }
+#printAreaRx .rx-date { display: flex; align-items: baseline; gap: 7pt; font-size: 17pt; font-weight: 400; color: #000; }
+/* Patient fields */
+#printAreaRx .rx-prow { display: flex; justify-content: space-between; align-items: baseline; padding-left: 7pt; }
+#printAreaRx .rx-prow1 { margin-top: 22pt; }
+#printAreaRx .rx-prow2 { margin-top: 26pt; }
+#printAreaRx .rx-field { display: flex; align-items: baseline; gap: 6pt; font-size: 15pt; font-weight: 400; color: #000; line-height: 1.2; }
+#printAreaRx .rx-blank { display: inline-block; border-bottom: 1pt solid #000; height: 12pt; width: 108pt; }
+#printAreaRx .rx-blank-date { width: 108pt; }
+#printAreaRx .rx-blank-contact { width: 200pt; }
+#printAreaRx .rx-blank-address { width: 194pt; }
+/* Horizontal rule */
+#printAreaRx .rx-hr { border-top: 1pt solid #333; margin: 16pt -31pt 0 -18pt; }
+/* Body — two columns, vertical divider on the left column's right edge */
+#printAreaRx .rx-body { display: flex; align-items: stretch; flex: 1 1 auto; min-height: 0; }
+#printAreaRx .rx-side {
+  width: 156pt; flex-shrink: 0; box-sizing: border-box;
+  display: flex; flex-direction: column;
+  border-right: 1pt solid #5a5a5a;
+  padding: 16pt 11pt 0 0;
+}
+#printAreaRx .rx-main { flex: 1; min-width: 0; box-sizing: border-box; padding: 13pt 0 0 22pt; position: relative; }
+#printAreaRx .rx-side-head { font-size: 17pt; font-weight: 800; color: #000; line-height: 1.1; margin-bottom: 16pt; }
+#printAreaRx .rx-side-head.head-ch { font-size: 16pt; margin-top: 38pt; margin-bottom: 0; }
+#printAreaRx .rx-side-head.head-ti { font-size: 15pt; margin-top: 0; margin-bottom: 0; }
+#printAreaRx .rx-vital { display: flex; align-items: baseline; font-size: 15pt; font-weight: 400; color: #000; line-height: 1.2; margin-bottom: 16pt; padding-left: 4pt; }
+#printAreaRx .rx-vital .vlabel { width: 56pt; }
+#printAreaRx .rx-vital .rx-blank-vital { width: 85pt; margin-left: 0; }
+#printAreaRx .rx-space { height: 112pt; }
+#printAreaRx .rx-space-grow { flex: 1 1 auto; min-height: 120pt; }
+/* Rx symbol + medicine list */
+#printAreaRx .rx-symbol { font-family: Georgia, 'Times New Roman', serif; font-size: 42pt; font-weight: 700; color: #000; line-height: 1; }
+#printAreaRx .rx-medicines { text-align: left; margin-top: 8pt; }
+#printAreaRx .rx-medicine-item {
+  display: flex; align-items: baseline; gap: 8pt;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 17pt; font-weight: 700; color: #000;
+  padding: 5pt 2pt;
+}
+#printAreaRx .rx-medicine-num { font-size: 13pt; font-weight: 700; color: #0d9488; min-width: 18pt; font-family: Arial, sans-serif; }
+</style>
+</head>
+<body class="h-screen flex flex-col overflow-hidden">
+
+<!-- TOP BAR -->
+<header class="bg-white border-b border-gray-100 px-6 py-3 flex items-center gap-4 shrink-0" style="box-shadow:0 1px 3px rgba(0,0,0,0.06)">
+  <!-- Logo -->
+  <div class="flex items-center gap-2.5 shrink-0">
+    <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+      <path d="M18 1.5C13 1.5 8 4 5.5 7.5C3 11 3 16 4 19C5 23 7 26 10 29C13 32 15.5 34.5 18 35.5C20.5 34.5 23 32 26 29C29 26 31 23 32 19C33 16 33 11 30.5 7.5C28 4 23 1.5 18 1.5Z" fill="#0d9488"/>
+      <rect x="15.5" y="9" width="5" height="18" rx="2.5" fill="white"/>
+      <rect x="9" y="15.5" width="18" height="5" rx="2.5" fill="white"/>
+    </svg>
+    <div>
+      <div style="font-size:15px;font-weight:800;color:#111827;line-height:1.2">Al Rehmat Hospital</div>
+      <div style="font-size:10px;color:#6B7280;font-weight:500">Medical Inventory</div>
+    </div>
+  </div>
+
+  <!-- Search -->
+  <div class="flex-1 relative max-w-lg mx-auto">
+    <svg class="absolute left-3 top-2.5 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 105 11a6 6 0 0012 0z"/>
+    </svg>
+    <input id="globalSearch" type="text" placeholder="Search medicines, diseases, companies...  ⌨ /" class="search-input">
+    <div id="searchResults" class="hidden absolute top-full mt-1.5 w-full bg-white border border-gray-100 rounded-xl overflow-hidden z-50" style="box-shadow:0 8px 32px rgba(0,0,0,0.12)"></div>
+  </div>
+
+  <!-- Category Toggle -->
+  <div class="cat-toggle shrink-0" id="catToggle">
+    <div class="cat-toggle-slider" id="toggleSlider"></div>
+    <button id="toggleHomeo" class="cat-btn active" onclick="setCategory('Homeopathic')">Homeopathic</button>
+    <button id="toggleAllo"  class="cat-btn inactive" onclick="setCategory('Allopathic')">Allopathic</button>
+  </div>
+
+  <!-- Favourites -->
+  <button onclick="toggleFavPanel()" class="fav-btn flex items-center gap-1.5 px-3 py-2 rounded-10 border border-gray-200 hover:bg-gray-50 rounded-lg" title="Favourites (F)">
+    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+    </svg>
+    <span id="favCount" class="text-xs font-bold text-gray-500">0</span>
+  </button>
+
+  <!-- Live Status -->
+  <div class="flex items-center gap-2 shrink-0">
+    <span class="live-dot" id="liveDot"></span>
+    <span id="syncLabel" class="text-xs text-gray-500 font-500">Connecting...</span>
+  </div>
+</header>
+
+<!-- FAVOURITES PANEL -->
+<div id="favPanel" class="hidden fixed top-16 right-4 w-72 bg-white rounded-2xl z-50 overflow-hidden" style="box-shadow:0 8px 32px rgba(0,0,0,0.15);border:1px solid #EEF0F4">
+  <div class="px-4 py-3 border-b border-gray-100 flex justify-between items-center">
+    <span class="font-700 text-sm text-gray-700" style="font-weight:700">Favourites</span>
+    <button onclick="toggleFavPanel()" class="text-gray-400 hover:text-gray-600 text-xl leading-none">×</button>
+  </div>
+  <div id="favList" class="max-h-80 overflow-y-auto p-2"></div>
+</div>
+
+<!-- STATS BAR -->
+<div class="px-5 pt-4 pb-2 grid grid-cols-4 gap-3 shrink-0">
+  <div class="stat-card fade-up-1 flex items-center gap-4">
+    <div class="stat-icon" style="background:#E6F7F4;color:#0B8B7A"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"></path><path d="m8.5 8.5 7 7"></path></svg></div>
+    <div>
+      <div class="stat-num" id="statTotal">0</div>
+      <div class="stat-label">Total Medicines</div>
+    </div>
+  </div>
+  <div class="stat-card fade-up-2 flex items-center gap-4">
+    <div class="stat-icon" style="background:#FEF3C7;color:#D97706"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg></div>
+    <div>
+      <div class="stat-num" id="statLow" style="color:#D97706">0</div>
+      <div class="stat-label">Low Stock</div>
+    </div>
+  </div>
+  <div class="stat-card fade-up-3 flex items-center gap-4">
+    <div class="stat-icon" style="background:#FEE2E2;color:#DC2626"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m4.9 4.9 14.2 14.2"></path></svg></div>
+    <div>
+      <div class="stat-num" id="statOut" style="color:#DC2626">0</div>
+      <div class="stat-label">Out of Stock</div>
+    </div>
+  </div>
+  <div class="stat-card fade-up-4 flex items-center gap-4">
+    <div class="stat-icon" style="background:#EDE9FE;color:#7C3AED"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg></div>
+    <div>
+      <div class="stat-num" id="statCompanies" style="color:#7C3AED">0</div>
+      <div class="stat-label">Companies</div>
+    </div>
+  </div>
+</div>
+
+<!-- RECENTLY VIEWED -->
+<div class="px-5 py-2 shrink-0">
+  <div class="flex items-center gap-3 overflow-x-auto pb-1" id="recentlyViewed" style="scrollbar-width:none">
+    <span class="text-xs font-700 text-gray-400 uppercase tracking-wider shrink-0" style="font-weight:700">Recent</span>
+  </div>
+</div>
+
+<!-- MAIN COLUMNS -->
+<div id="mainLayout" class="flex flex-1 overflow-x-auto overflow-y-hidden px-4 pb-4 gap-2 min-h-0">
+
+  <!-- COLUMN 1: ORGANS -->
+  <div id="col1" class="col-card fade-up-1" style="width:110px;min-width:80px;flex-shrink:2">
+    <div class="col-header">
+      <div class="col-accent"></div>
+      <span class="col-title">Organs</span>
+    </div>
+    <div class="flex-1 overflow-y-auto p-3">
+      <div id="organGrid" class="grid grid-cols-2 gap-2"></div>
+    </div>
+  </div>
+
+  <div class="resizer" data-col="col1"></div>
+
+  <!-- COLUMN 2: DISEASES -->
+  <div id="col2" class="col-card fade-up-2" style="width:120px;min-width:84px;flex-shrink:2">
+    <div class="col-header">
+      <div class="col-accent"></div>
+      <span class="col-title">Diseases</span>
+    </div>
+    <div id="diseaseList" class="flex-1 overflow-y-auto py-1"></div>
+  </div>
+
+  <div class="resizer" data-col="col2"></div>
+
+  <!-- COLUMN 3: COMPANIES -->
+  <div id="col3" class="col-card fade-up-3" style="width:110px;min-width:80px;flex-shrink:2.2">
+    <div class="col-header">
+      <div class="col-accent"></div>
+      <span class="col-title">Companies</span>
+    </div>
+    <div id="companyList" class="flex-1 overflow-y-auto py-1"></div>
+  </div>
+
+  <div class="resizer" data-col="col3"></div>
+
+  <!-- COLUMN 4: MEDICINES -->
+  <div id="col4" class="col-card fade-up-4" style="width:420px;min-width:320px;flex-shrink:0.4">
+    <div class="col-header justify-between">
+      <div class="flex items-center" style="min-width:0">
+        <div class="col-accent"></div>
+        <span class="col-title">Medicines</span>
+      </div>
+      <input id="medSearch" type="text" placeholder="Filter..."
+        class="text-xs border border-gray-200 rounded-lg px-2 py-1 w-24 focus:outline-none focus:border-teal-400 bg-gray-50 transition-all shrink-0">
+    </div>
+    <div class="med-table-header">
+      <span>Medicine</span><span>Company</span><span>Price</span><span>Stock</span>
+    </div>
+    <div id="medicineList" class="flex-1 overflow-y-auto"></div>
+  </div>
+
+  <div class="resizer" data-col="col4"></div>
+
+  <!-- COLUMN 5: DETAIL -->
+  <div id="col5" class="col-card fade-up-4" style="min-width:250px;width:300px;flex-shrink:0.6">
+    <div class="col-header">
+      <div class="col-accent"></div>
+      <span class="col-title">Medicine Detail</span>
+    </div>
+    <div id="detailCard" class="flex-1 flex flex-col" style="overflow:hidden;min-height:0">
+      <div id="detailScroll" class="flex-1 overflow-y-auto p-4" style="min-height:0">
+        <div class="text-center" style="color:#D1D5DB;margin:auto">
+          <div style="font-size:40px;margin-bottom:8px;color:currentColor"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"></path><path d="m8.5 8.5 7 7"></path></svg></div>
+          <p style="font-size:12px;color:#9CA3AF">Select a medicine</p>
+          <p style="font-size:10px;color:#D1D5DB;margin-top:4px">Use <span class="kbd">/</span> to search</p>
+        </div>
+      </div>
+      <div id="detailButtons" class="shrink-0"></div>
+    </div>
+  </div>
+
+  <div class="resizer" data-col="col5"></div>
+
+  <!-- COLUMN 6: CART -->
+  <div id="col6" class="col-card fade-up-4 flex-1" style="min-width:250px;width:280px;flex-shrink:0">
+    <div class="col-header justify-between">
+      <div class="flex items-center" style="min-width:0">
+        <div class="col-accent" style="background:#8B5CF6"></div>
+        <span class="col-title">Prescription Cart</span>
+      </div>
+      <span id="cartCount" style="font-size:10px;font-weight:700;background:#EDE9FE;color:#7C3AED;padding:2px 8px;border-radius:20px;white-space:nowrap;flex-shrink:0">0 items</span>
+    </div>
+    <div id="cartList" class="flex-1 overflow-y-auto py-2"></div>
+    <div style="padding:12px;border-top:1px solid #F3F4F6">
+      <div id="cartEmpty" style="text-align:center;font-size:11px;color:#D1D5DB;padding:4px 0">Add medicines to cart</div>
+      <button id="printCartBtn" onclick="printCart()" class="hidden w-full" style="background:linear-gradient(135deg,#7C3AED,#8B5CF6);color:white;border:none;border-radius:10px;padding:11px 6px;font-size:13px;font-weight:700;cursor:pointer;display:none;width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:all 0.2s;box-shadow:0 4px 12px rgba(124,58,237,0.3)">
+        <span style="display:inline-flex;align-items:center"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"></path><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg></span>&nbsp; Print Prescription
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<!-- PRINT AREA — Receipt (Name + Company only) -->
+<div id="printArea">
+  <div style="padding:30px 40px;max-width:420px;margin:0 auto;font-family:Arial,sans-serif">
+    <!-- Header -->
+    <div style="text-align:center;padding-bottom:16px;margin-bottom:20px;border-bottom:2px solid #0d9488">
+      <div style="font-size:22px;font-weight:800;color:#0d9488">Al Rehmat Hospital</div>
+      <div style="font-size:12px;color:#6B7280;margin-top:2px">Medical Inventory</div>
+    </div>
+    <!-- Medicines list -->
+    <div id="printContent"></div>
+    <!-- Footer -->
+    <div style="text-align:center;margin-top:24px;font-size:10px;color:#9CA3AF;border-top:1px solid #E5E7EB;padding-top:12px">
+      <span id="printDate"></span>
+    </div>
+  </div>
+</div>
+
+<!-- PRINT AREA — Prescription Pad (Cart) -->
+<div id="printAreaRx">
+  <div class="rx-page">
+    <div class="rx-header">
+      <div class="rx-title">AL REHMAT HOSPITAL SAHIWAL</div>
+      <div class="rx-tagline">ADDRESS- 6 UMER BLOCK SHADAB TOWN SAHIWAL</div>
+      <div class="rx-tagline">CELL NO. 0301-1690179&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PH# 0404400581</div>
+    </div>
+
+    <div class="rx-docrow">
+      <div class="rx-doctor">
+        <div class="rx-docname">DR. M. TAHIR MEHMOOD</div>
+        <div class="rx-quals">M.B.B.S</div>
+      </div>
+      <div class="rx-date"><span>Date:</span><span class="rx-blank rx-blank-date"></span></div>
+    </div>
+
+    <div class="rx-prow rx-prow1">
+      <div class="rx-field"><span>O.P.D No.</span><span class="rx-blank"></span></div>
+      <div class="rx-field"><span>Pt. Name:</span><span class="rx-blank"></span></div>
+      <div class="rx-field"><span>Age/se:</span><span class="rx-blank"></span></div>
+    </div>
+
+    <div class="rx-prow rx-prow2">
+      <div class="rx-field"><span>Contact:</span><span class="rx-blank rx-blank-contact"></span></div>
+      <div class="rx-field"><span>Address:</span><span class="rx-blank rx-blank-address"></span></div>
+    </div>
+
+    <div class="rx-hr"></div>
+
+    <div class="rx-body">
+      <div class="rx-side">
+        <div class="rx-side-head">Vitals</div>
+        <div class="rx-vital"><span class="vlabel">B.P</span><span class="rx-blank rx-blank-vital"></span></div>
+        <div class="rx-vital"><span class="vlabel">Pulse</span><span class="rx-blank rx-blank-vital"></span></div>
+        <div class="rx-vital"><span class="vlabel">Temp</span><span class="rx-blank rx-blank-vital"></span></div>
+        <div class="rx-vital"><span class="vlabel">Weight</span><span class="rx-blank rx-blank-vital"></span></div>
+        <div class="rx-side-head head-ch">Clinical History</div>
+        <div class="rx-space"></div>
+        <div class="rx-side-head head-ti">Test/Investigation</div>
+        <div class="rx-space-grow"></div>
+      </div>
+      <div class="rx-main">
+        <div class="rx-symbol">℞</div>
+        <div id="printContentRx" class="rx-medicines"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ============================================================
+   DATA & STATE
+============================================================ */
+let DATA = [];
+let FAVOURITES = JSON.parse(localStorage.getItem('clinicFavs') || '[]');
+let RECENTLY_VIEWED = JSON.parse(localStorage.getItem('clinicRecent') || '[]');
+let lastUpdatedTs = 0;
+let state = { category: 'Homeopathic', organ: null, disease: null, company: null, medicine: null };
+
+/* ============================================================
+   ICON LIBRARY (inline SVG — no external dependency, offline-safe)
+============================================================ */
+const ICONS = {
+  pill:      '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"></path><path d="m8.5 8.5 7 7"></path></svg>',
+  brain:     '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"></path><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"></path></svg>',
+  heart:     '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>',
+  lungs:     '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.8 19.6A2 2 0 1 0 14 16H2"></path><path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"></path><path d="M9.8 4.4A2 2 0 1 1 11 8H2"></path></svg>',
+  stomach:   '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3c-1 3-2 5-2 8a6 6 0 0 0 12 0c0-2-.5-3.5-1.5-5"></path><path d="M14 3c.5 1.5 1 2.5 1 4"></path></svg>',
+  liver:     '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13c0-4 3-6 3-6s1 2 4 2 5-3 5-3 3 4 3 8a7 7 0 0 1-7 7Z"></path></svg>',
+  kidney:    '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3a6 6 0 0 0-6 6c0 4 3 5 3 9a3 3 0 0 0 6 0c0-2-1-3-1-5a4 4 0 0 1 4-4 5 5 0 0 0 0-10c-2 0-3 1-3 3s1 2 1 3"></path></svg>',
+  bone:      '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-9 9c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z"></path></svg>',
+  skin:      '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-2-2 2 2 0 0 0-2 2"></path><path d="M14 10V4a2 2 0 0 0-2-2 2 2 0 0 0-2 2v2"></path><path d="M10 10.5V6a2 2 0 0 0-2-2 2 2 0 0 0-2 2v8"></path><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"></path></svg>',
+  general:   '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 2v2"></path><path d="M5 2v2"></path><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"></path><path d="M8 15a6 6 0 0 0 12 0v-3"></path><circle cx="20" cy="10" r="2"></circle></svg>',
+  drop:      '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7Z"></path></svg>',
+  eye:       '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path><circle cx="12" cy="12" r="3"></circle></svg>',
+  thermo:    '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>',
+  warning:   '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>',
+  ban:       '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m4.9 4.9 14.2 14.2"></path></svg>',
+  check:     '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg>',
+  building:  '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg>',
+  cart:      '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>',
+  printer:   '<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"></path><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>',
+};
+
+const ORGAN_MAP = {
+  Brain:   { icon: 'brain',   diseases: ['migraine','headache','anxiety','depression','insomnia','vertigo','epilepsy','memory','neuro','brain','mental','stress','nerve'] },
+  Heart:   { icon: 'heart',   diseases: ['heart','cardiac','hypertension','blood pressure','cholesterol','angina','circulation','bp','cardiovascular'] },
+  Lungs:   { icon: 'lungs',   diseases: ['cough','asthma','lung','bronchitis','respiratory','cold','flu','pneumonia','tb','chest','breathing'] },
+  Stomach: { icon: 'stomach', diseases: ['stomach','gastritis','acid','ulcer','digestive','gas','acidity','gerd','nausea','vomiting','indigestion','bowel','liver','hepatitis','constipation','diarrhea'] },
+  Liver:   { icon: 'liver',   diseases: ['liver','hepatitis','jaundice','fatty liver','gallbladder'] },
+  Kidneys: { icon: 'kidney',  diseases: ['kidney','renal','urinary','uti','bladder','nephritis','stone'] },
+  Joints:  { icon: 'bone',    diseases: ['joint','arthritis','rheumat','back pain','spine','bone','muscle','injury','pain','inflammation','gout'] },
+  Skin:    { icon: 'skin',    diseases: ['skin','eczema','allergy','rash','acne','dermat','fungal','wart','psoriasis','hair','nail'] },
+  General: { icon: 'general', diseases: ['fever','infection','diabetes','weakness','immunity','vitamin','supplement','general','weight','thyroid','anemia'] },
+};
+
+const DISEASE_ICONS = {
+  default:'pill',migraine:'brain',headache:'brain',anxiety:'brain',depression:'brain',
+  insomnia:'brain',heart:'heart',hypertension:'heart',blood:'drop',cholesterol:'heart',
+  cough:'lungs',asthma:'lungs',cold:'lungs',flu:'thermo',fever:'thermo',stomach:'stomach',
+  acid:'stomach',gastritis:'stomach',liver:'liver',kidney:'kidney',joint:'bone',
+  arthritis:'bone',pain:'bone',skin:'skin',allergy:'skin',diabetes:'drop',
+  infection:'pill',hair:'skin',eye:'eye',
+};
+
+function getDiseaseIcon(dis) {
+  const d = dis.toLowerCase();
+  for (const [k,v] of Object.entries(DISEASE_ICONS)) { if (d.includes(k)) return ICONS[v]; }
+  return ICONS.pill;
+}
+function getInitials(name) { return name.split(' ').map(w=>w[0]).join('').toUpperCase().slice(0,3); }
+function stockBadge(s) {
+  if (s<=10) return '<span class="badge badge-red">Out of Stock</span>';
+  if (s<=50) return '<span class="badge badge-orange">Low Stock</span>';
+  return '<span class="badge badge-green">In Stock</span>';
+}
+function stockColor(s) { return s<=10?'#DC2626':s<=50?'#D97706':'#059669'; }
+function stockText(s)  { return s<=10?'Out of Stock':s<=50?'Low Stock':'In Stock'; }
+
+/* ============================================================
+   CATEGORY
+============================================================ */
+function setCategory(cat) {
+  state = { category:cat, organ:null, disease:null, company:null, medicine:null };
+
+  const homeoBtn = document.getElementById('toggleHomeo');
+  const alloBtn  = document.getElementById('toggleAllo');
+  const slider   = document.getElementById('toggleSlider');
+
+  // Move slider
+  if (cat === 'Homeopathic') {
+    homeoBtn.className = 'cat-btn active';
+    alloBtn.className  = 'cat-btn inactive';
+    slider.style.left  = '3px';
+    slider.style.width = homeoBtn.offsetWidth + 'px';
+  } else {
+    homeoBtn.className = 'cat-btn inactive';
+    alloBtn.className  = 'cat-btn active';
+    slider.style.left  = (homeoBtn.offsetWidth + 5) + 'px';
+    slider.style.width = alloBtn.offsetWidth + 'px';
+  }
+
+  // Animate columns
+  const cols = ['col1','col2','col3','col4','col5'];
+  cols.forEach((id, i) => {
+    const el = document.getElementById(id);
+    el.style.animation = 'none';
+    el.offsetHeight; // reflow
+    el.style.animation = `colFadeIn 0.3s ${i*0.04}s ease both`;
+  });
+
+  // Animate stats
+  document.querySelectorAll('.stat-card').forEach((card, i) => {
+    card.style.animation = 'none';
+    card.offsetHeight;
+    card.style.animation = `statPop 0.3s ${i*0.05}s ease both`;
+  });
+
+  renderAll(); clearDetail();
+}
+
+// Init slider position on load
+function initSlider() {
+  const slider   = document.getElementById('toggleSlider');
+  const homeoBtn = document.getElementById('toggleHomeo');
+  slider.style.left  = '3px';
+  slider.style.width = homeoBtn.offsetWidth + 'px';
+}
+
+/* ============================================================
+   STATS
+============================================================ */
+function updateStats() {
+  const catData = DATA.filter(d=>d.Category===state.category);
+  document.getElementById('statTotal').textContent     = catData.length;
+  document.getElementById('statLow').textContent       = catData.filter(d=>d.Stock>10&&d.Stock<=50).length;
+  document.getElementById('statOut').textContent       = catData.filter(d=>d.Stock<=10).length;
+  document.getElementById('statCompanies').textContent = [...new Set(catData.map(d=>d.Company))].length;
+}
+
+/* ============================================================
+   RECENTLY VIEWED
+============================================================ */
+function addToRecent(med) {
+  RECENTLY_VIEWED = RECENTLY_VIEWED.filter(r=>r.MedicineName!==med.MedicineName||r.Company!==med.Company);
+  RECENTLY_VIEWED.unshift(med);
+  if (RECENTLY_VIEWED.length > 7) RECENTLY_VIEWED = RECENTLY_VIEWED.slice(0,7);
+  localStorage.setItem('clinicRecent', JSON.stringify(RECENTLY_VIEWED));
+  renderRecentlyViewed();
+}
+
+function renderRecentlyViewed() {
+  const container = document.getElementById('recentlyViewed');
+  const label = container.querySelector('span');
+  container.innerHTML = '';
+  container.appendChild(label);
+  if (!RECENTLY_VIEWED.length) return;
+  RECENTLY_VIEWED.forEach(med => {
+    const chip = document.createElement('div');
+    chip.className = 'rv-chip slide-in';
+    chip.innerHTML = `<div class="rv-dot"></div><span>${med.MedicineName}</span>`;
+    chip.onclick = () => { state.medicine=med; state.category=med.Category; showDetail(med); };
+    container.appendChild(chip);
+  });
+}
+
+/* ============================================================
+   RENDER ORGANS
+============================================================ */
+function getDiseasesForOrgan(organName) {
+  const keywords = ORGAN_MAP[organName]?.diseases||[];
+  const catData = DATA.filter(d=>d.Category===state.category);
+  return [...new Set(catData.map(d=>d.Disease))].filter(dis=>
+    keywords.some(kw=>dis.toLowerCase().includes(kw))
+  );
+}
+
+function renderOrgans() {
+  const grid = document.getElementById('organGrid');
+  grid.innerHTML = '';
+  Object.entries(ORGAN_MAP).forEach(([name,info]) => {
+    if (!getDiseasesForOrgan(name).length) return;
+    const btn = document.createElement('div');
+    btn.className = 'organ-btn'+(state.organ===name?' active':'');
+    btn.innerHTML = `<div class="organ-icon">${ICONS[info.icon]}</div><div class="organ-label">${name}</div>`;
+    btn.onclick = () => {
+      state.organ = state.organ===name?null:name;
+      state.disease=null; state.company=null; state.medicine=null;
+      renderAll(); clearDetail();
+    };
+    grid.appendChild(btn);
+  });
+}
+
+/* ============================================================
+   RENDER DISEASES
+============================================================ */
+function renderDiseases() {
+  const el = document.getElementById('diseaseList');
+  el.innerHTML = '';
+  const catData = DATA.filter(d=>d.Category===state.category);
+  let diseases = state.organ ? getDiseasesForOrgan(state.organ) : [...new Set(catData.map(d=>d.Disease))];
+  if (!diseases.length) {
+    el.innerHTML = `<div style="padding:16px;text-align:center;font-size:12px;color:#9CA3AF">Select an organ</div>`;
+    return;
+  }
+  diseases.forEach(dis => {
+    const count = catData.filter(d=>d.Disease===dis).length;
+    const div = document.createElement('div');
+    div.className = 'list-item'+(state.disease===dis?' active':'');
+    div.innerHTML = `
+      <div class="item-icon">${getDiseaseIcon(dis)}</div>
+      <div style="flex:1;min-width:0">
+        <div class="item-name" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${dis}</div>
+        <div class="item-count">${count} medicines</div>
+      </div>`;
+    div.onclick = () => { state.disease=dis; state.company=null; state.medicine=null; renderDiseases(); renderCompanies(); renderMedicines(); clearDetail(); };
+    el.appendChild(div);
+  });
+}
+
+/* ============================================================
+   RENDER COMPANIES
+============================================================ */
+function renderCompanies() {
+  const el = document.getElementById('companyList');
+  el.innerHTML = '';
+  if (!state.disease) {
+    el.innerHTML = `<div style="padding:16px;text-align:center;font-size:12px;color:#9CA3AF">Select a disease</div>`;
+    return;
+  }
+  const companies = [...new Set(DATA.filter(d=>d.Category===state.category&&d.Disease===state.disease).map(d=>d.Company))];
+  companies.forEach(co => {
+    const count = DATA.filter(d=>d.Category===state.category&&d.Disease===state.disease&&d.Company===co).length;
+    const div = document.createElement('div');
+    div.className = 'list-item'+(state.company===co?' active':'');
+    div.innerHTML = `
+      <div class="company-avatar">${getInitials(co)}</div>
+      <div style="flex:1;min-width:0">
+        <div class="item-name" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${co}</div>
+        <div class="item-count">${count} medicines</div>
+      </div>`;
+    div.onclick = () => { state.company=co; state.medicine=null; renderCompanies(); renderMedicines(); clearDetail(); };
+    el.appendChild(div);
+  });
+}
+
+/* ============================================================
+   RENDER MEDICINES
+============================================================ */
+function renderMedicines() {
+  const el = document.getElementById('medicineList');
+  const filter = document.getElementById('medSearch').value.trim().toLowerCase();
+  el.innerHTML = '';
+  let meds = DATA.filter(d => {
+    if (d.Category!==state.category) return false;
+    if (state.disease && d.Disease!==state.disease) return false;
+    if (state.company && d.Company!==state.company) return false;
+    return true;
+  });
+  if (filter) meds = meds.filter(d=>d.MedicineName.toLowerCase().includes(filter)||(d.Salt&&d.Salt.toLowerCase().includes(filter))||d.Company.toLowerCase().includes(filter)||d.Disease.toLowerCase().includes(filter));
+  if (!meds.length) {
+    el.innerHTML = `<div style="padding:24px;text-align:center;font-size:12px;color:#9CA3AF">No medicines found</div>`;
+    return;
+  }
+  meds.forEach(med => {
+    const isActive = state.medicine && state.medicine.MedicineName===med.MedicineName && state.medicine.Company===med.Company;
+    const row = document.createElement('div');
+    row.className = 'med-row'+(isActive?' active':'');
+    row.innerHTML = `
+      <div style="min-width:0">
+        <div class="med-name" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${med.MedicineName}</div>
+        <div class="med-weight">${med.Weight||''}</div>
+      </div>
+      <div class="med-company-text" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${med.Company}</div>
+      <div class="med-price">Rs.${med.Price}</div>
+      <div>${stockBadge(med.Stock)}</div>`;
+    row.onclick = () => { state.medicine=med; renderMedicines(); showDetail(med); addToRecent(med); };
+    el.appendChild(row);
+  });
+}
+document.getElementById('medSearch').addEventListener('input', renderMedicines);
+
+/* ============================================================
+   DETAIL CARD
+============================================================ */
+function showDetail(med) {
+  const isFav = FAVOURITES.some(f=>f.MedicineName===med.MedicineName&&f.Company===med.Company);
+  document.getElementById('detailScroll').innerHTML = `
+    <div class="w-full fade-up" style="gap:0">
+
+      <!-- Header -->
+      <div style="background:linear-gradient(135deg,#0B8B7A,#0ea5e9);border-radius:12px;padding:14px 16px;margin-bottom:10px;position:relative;overflow:hidden">
+        <div style="position:absolute;top:-20px;right:-20px;width:80px;height:80px;background:rgba(255,255,255,0.08);border-radius:50%"></div>
+        <div style="position:absolute;bottom:-30px;right:10px;width:60px;height:60px;background:rgba(255,255,255,0.06);border-radius:50%"></div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;position:relative">
+          <div style="flex:1;min-width:0">
+            <div style="font-size:10px;color:rgba(255,255,255,0.7);font-weight:600;letter-spacing:0.05em;margin-bottom:4px">${med.Category.toUpperCase()}</div>
+            <div style="font-size:18px;font-weight:800;color:white;line-height:1.2;overflow-wrap:break-word">${med.MedicineName}</div>
+            ${med.Weight?`<div style="font-size:12px;color:rgba(255,255,255,0.8);margin-top:4px;font-weight:500">${med.Weight}</div>`:''}
+          </div>
+          <button onclick="toggleFav()" style="padding:7px;border-radius:8px;border:1.5px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.1);cursor:pointer;flex-shrink:0;margin-left:8px;backdrop-filter:blur(4px)" class="fav-btn">
+            <svg width="16" height="16" fill="${isFav?'#FCA5A5':'none'}" stroke="${isFav?'#FCA5A5':'rgba(255,255,255,0.8)'}" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Detail Fields -->
+      <div style="display:flex;flex-direction:column;gap:6px">
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
+          <div style="background:#F9FAFB;border-radius:10px;padding:10px 12px;min-width:0">
+            <div style="font-size:10px;color:#9CA3AF;font-weight:600;margin-bottom:2px">COMPANY</div>
+            <div style="font-size:13px;font-weight:700;color:#111827;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="${med.Company}">${med.Company}</div>
+          </div>
+          <div style="background:#F9FAFB;border-radius:10px;padding:10px 12px;min-width:0">
+            <div style="font-size:10px;color:#9CA3AF;font-weight:600;margin-bottom:2px">CATEGORY</div>
+            <div style="font-size:13px;font-weight:700;color:#111827;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="${med.Category}">${med.Category}</div>
+          </div>
+        </div>
+
+        <div style="background:#F9FAFB;border-radius:10px;padding:10px 12px;min-width:0">
+          <div style="font-size:10px;color:#9CA3AF;font-weight:600;margin-bottom:2px">DISEASE / TYPE</div>
+          <div style="font-size:13px;font-weight:700;color:#111827;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="${med.Disease}">${med.Disease}</div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
+          <div style="background:#F9FAFB;border-radius:10px;padding:10px 12px;min-width:0">
+            <div style="font-size:10px;color:#9CA3AF;font-weight:600;margin-bottom:2px">WEIGHT / STRENGTH</div>
+            <div style="font-size:13px;font-weight:700;color:#111827;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="${med.Weight||'—'}">${med.Weight||'—'}</div>
+          </div>
+          <div style="background:#E6F7F4;border-radius:10px;padding:10px 12px;min-width:0">
+            <div style="font-size:10px;color:#0B8B7A;font-weight:600;margin-bottom:2px">PRICE (PKR)</div>
+            <div style="font-size:17px;font-weight:800;color:#0B8B7A">Rs.${med.Price}</div>
+          </div>
+        </div>
+
+        <!-- Salt / Formula — full width -->
+        <div style="background:#F9FAFB;border-radius:10px;padding:10px 12px;width:100%;box-sizing:border-box">
+          <div style="font-size:10px;color:#9CA3AF;font-weight:600;margin-bottom:4px">SALT / FORMULA</div>
+          <div style="font-size:12px;font-weight:700;color:#111827;height:auto;min-height:auto;word-break:break-word;white-space:normal;line-height:1.4">${med.Salt||'N/A'}</div>
+        </div>
+
+      </div>
+
+    </div>`;
+
+  document.getElementById('detailButtons').innerHTML = `
+      <div style="display:flex;gap:8px;padding:0 16px 16px;border-top:1px solid var(--border);padding-top:12px">
+        <button class="print-btn" onclick="addToCart(state.medicine)" style="flex:1;min-width:0;background:linear-gradient(135deg,#7C3AED,#8B5CF6);box-shadow:0 4px 12px rgba(124,58,237,0.3)">
+          ${ICONS.cart}<span>Add to Cart</span>
+        </button>
+        <button class="print-btn" onclick="printMedicine()" style="flex:1;min-width:0">
+          ${ICONS.printer}<span>Print Label</span>
+        </button>
+      </div>`;
+}
+
+function clearDetail() {
+  document.getElementById('detailScroll').innerHTML = `
+    <div class="text-center fade-up" style="color:#D1D5DB;margin:auto">
+      <div style="font-size:40px;margin-bottom:8px;color:currentColor"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"></path><path d="m8.5 8.5 7 7"></path></svg></div>
+      <p style="font-size:12px;color:#9CA3AF">Select a medicine</p>
+      <p style="font-size:10px;color:#D1D5DB;margin-top:4px">Use <span class="kbd">/</span> to search</p>
+    </div>`;
+  document.getElementById('detailButtons').innerHTML = '';
+}
+
+/* ============================================================
+   PRINT
+============================================================ */
+function printMedicine() {
+  if (!state.medicine) return;
+  const med = state.medicine;
+  document.getElementById('printDate').textContent = new Date().toLocaleDateString('en-PK');
+  document.getElementById('printContent').innerHTML = `
+    <table style="width:100%;border-collapse:collapse;font-size:13px">
+      <tr><td style="padding:8px 0;color:#6B7280;width:40%">Medicine</td><td style="padding:8px 0;font-weight:700">${med.MedicineName}</td></tr>
+      <tr style="background:#F9FAFB"><td style="padding:8px 4px;color:#6B7280">Company</td><td style="padding:8px 4px;font-weight:600">${med.Company}</td></tr>
+      <tr><td style="padding:8px 0;color:#6B7280">Category</td><td style="padding:8px 0;font-weight:600">${med.Category}</td></tr>
+      <tr style="background:#F9FAFB"><td style="padding:8px 4px;color:#6B7280">Disease</td><td style="padding:8px 4px;font-weight:600">${med.Disease}</td></tr>
+      <tr><td style="padding:8px 0;color:#6B7280">Weight</td><td style="padding:8px 0;font-weight:600">${med.Weight||'—'}</td></tr>
+      <tr style="background:#F9FAFB"><td style="padding:8px 4px;color:#6B7280">Price</td><td style="padding:8px 4px;font-weight:700;color:#0B8B7A">Rs. ${med.Price}</td></tr>
+      <tr><td style="padding:8px 0;color:#6B7280">Stock</td><td style="padding:8px 0;font-weight:700;color:${stockColor(med.Stock)}">${stockText(med.Stock)} (${med.Stock} units)</td></tr>
+    </table>`;
+  document.getElementById('printAreaRx').classList.remove('show-print');
+  document.getElementById('printArea').classList.add('show-print');
+  window.print();
+}
+
+/* ============================================================
+   FAVOURITES
+============================================================ */
+function toggleFav() {
+  if (!state.medicine) return;
+  const med = state.medicine;
+  const idx = FAVOURITES.findIndex(f=>f.MedicineName===med.MedicineName&&f.Company===med.Company);
+  if (idx>=0) FAVOURITES.splice(idx,1); else FAVOURITES.push(med);
+  localStorage.setItem('clinicFavs', JSON.stringify(FAVOURITES));
+  document.getElementById('favCount').textContent = FAVOURITES.length;
+  showDetail(med); renderFavList();
+}
+
+function toggleFavPanel() {
+  document.getElementById('favPanel').classList.toggle('hidden');
+  renderFavList();
+}
+
+function renderFavList() {
+  const el = document.getElementById('favList');
+  el.innerHTML = '';
+  if (!FAVOURITES.length) {
+    el.innerHTML = `<div style="padding:16px;text-align:center;font-size:12px;color:#9CA3AF">No favourites yet</div>`;
+    return;
+  }
+  FAVOURITES.forEach(med => {
+    const div = document.createElement('div');
+    div.className = 'list-item';
+    div.style.borderRadius = '8px';
+    div.innerHTML = `
+      <div style="flex:1;min-width:0">
+        <div class="item-name">${med.MedicineName}</div>
+        <div class="item-count">${med.Company} • Rs.${med.Price}</div>
+      </div>
+      ${stockBadge(med.Stock)}`;
+    div.onclick = () => { state.medicine=med; showDetail(med); toggleFavPanel(); };
+    el.appendChild(div);
+  });
+}
+
+/* ============================================================
+   GLOBAL SEARCH
+============================================================ */
+const searchEl = document.getElementById('globalSearch');
+const searchResults = document.getElementById('searchResults');
+
+searchEl.addEventListener('input', e => {
+  const q = e.target.value.trim().toLowerCase();
+  if (!q) { searchResults.classList.add('hidden'); return; }
+  const matches = DATA.filter(d =>
+    d.MedicineName.toLowerCase().includes(q) ||
+    (d.Salt && d.Salt.toLowerCase().includes(q)) ||
+    d.Company.toLowerCase().includes(q) ||
+    d.Disease.toLowerCase().includes(q)
+  ).slice(0,10);
+  searchResults.innerHTML = '';
+  if (!matches.length) {
+    searchResults.innerHTML = `<div style="padding:12px 16px;font-size:13px;color:#9CA3AF">No results</div>`;
+  } else {
+    matches.forEach(med => {
+      const row = document.createElement('div');
+      row.style.cssText = 'display:flex;align-items:center;justify-content:space-between;padding:10px 16px;cursor:pointer;border-bottom:1px solid #F3F4F6;transition:background 0.1s';
+      row.onmouseover = ()=>row.style.background='#F9FAFB';
+      row.onmouseout  = ()=>row.style.background='';
+      row.innerHTML = `
+        <div>
+          <div style="font-size:13px;font-weight:600;color:#111827">${med.MedicineName}</div>
+          <div style="font-size:11px;color:#6B7280">${med.Company} • ${med.Disease} • ${med.Weight||''}</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px">
+          <span style="font-size:12px;font-weight:700;color:#0B8B7A">Rs.${med.Price}</span>
+          ${stockBadge(med.Stock)}
+        </div>`;
+      row.onclick = () => {
+        setCategory(med.Category);
+        state.disease = med.Disease;
+        state.company = med.Company;
+        state.medicine = med;
+        renderAll();
+        showDetail(med); addToRecent(med);
+        searchResults.classList.add('hidden'); searchEl.value='';
+      };
+      searchResults.appendChild(row);
+    });
+  }
+  searchResults.classList.remove('hidden');
+});
+
+document.addEventListener('click', e => {
+  if (!searchEl.contains(e.target)&&!searchResults.contains(e.target)) searchResults.classList.add('hidden');
+  if (!document.getElementById('favPanel').contains(e.target)&&!e.target.closest('[onclick="toggleFavPanel()"]')) document.getElementById('favPanel').classList.add('hidden');
+});
+
+/* ============================================================
+   KEYBOARD SHORTCUTS
+============================================================ */
+document.addEventListener('keydown', e => {
+  if (e.target.tagName==='INPUT') return;
+  if (e.key==='/')  { e.preventDefault(); searchEl.focus(); }
+  if (e.key==='h'||e.key==='H') setCategory('Homeopathic');
+  if (e.key==='a'||e.key==='A') setCategory('Allopathic');
+  if (e.key==='f'||e.key==='F') toggleFavPanel();
+  if (e.key==='p'||e.key==='P') printMedicine();
+  if (e.key==='Escape') { searchEl.blur(); searchResults.classList.add('hidden'); }
+});
+
+/* ============================================================
+   RESIZABLE COLUMNS
+============================================================ */
+document.querySelectorAll('.resizer').forEach(resizer => {
+  resizer.addEventListener('mousedown', function(e) {
+    e.preventDefault();
+    const col = document.getElementById(this.dataset.col);
+    const startX = e.clientX, startW = col.offsetWidth;
+    this.classList.add('dragging');
+    document.body.style.cursor = 'col-resize';
+    document.body.style.userSelect = 'none';
+    const onMove = e => { col.style.width = Math.max(70, startW+(e.clientX-startX))+'px'; col.style.flex='none'; };
+    const onUp   = () => { this.classList.remove('dragging'); document.body.style.cursor=''; document.body.style.userSelect=''; document.removeEventListener('mousemove',onMove); document.removeEventListener('mouseup',onUp); };
+    document.addEventListener('mousemove', onMove);
+    document.addEventListener('mouseup', onUp);
+  });
+});
+
+/* ============================================================
+   SYNC STATUS
+============================================================ */
+function setStatus(mode, text) {
+  const dot = document.getElementById('liveDot');
+  dot.className = 'live-dot' + (mode==='error'?' error':'');
+  document.getElementById('syncLabel').textContent = text;
+}
+
+
+function renderAll() {
+  renderOrgans(); renderDiseases(); renderCompanies(); renderMedicines(); updateStats();
+}
+
+
+const SUPABASE_URL = "https://hnekjyxobrezwkekrwnb.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhuZWtqeXhvYnJlendrZWtyd25iIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMwNTk0MTMsImV4cCI6MjA5ODYzNTQxM30.-gjskSdaDhkZEt7NANm7FDzCFD0ntMJKJ3bKppYa6zo";
+
+let supabase = null;
+try {
+  if (window.supabase && typeof window.supabase.createClient === 'function') {
+    supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+  } else {
+    console.warn('[Medical Inventory] Supabase library not available — running in offline/local-only mode.');
+  }
+} catch (err) {
+  console.warn('[Medical Inventory] Supabase init failed — running in offline/local-only mode.', err);
+}
+
+function mapRow(row) {
+  return {
+    Category:     row.category,
+    Company:      row.company,
+    Disease:      row.disease || '',
+    MedicineName: row.medicine_name,
+    Salt:         row.salt || '',
+    Weight:       row.weight || '',
+    Price:        row.price || 0,
+    Stock:        row.stock || 0
+  };
+}
+
+async function fetchData() {
+  try {
+    setStatus('', 'Connecting...');
+    
+    // Use fetch directly to avoid Electron file:// issues
+    const res = await fetch(
+      SUPABASE_URL + '/rest/v1/medicines?select=*&order=category,company,medicine_name',
+      {
+        headers: {
+          'apikey': SUPABASE_KEY,
+          'Authorization': 'Bearer ' + SUPABASE_KEY,
+          'Content-Type': 'application/json'
+        }
+      }
+    );
+    
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+
+    DATA = (data || []).map(mapRow);
+    renderAll();
+    renderRecentlyViewed();
+    setStatus('live', DATA.length + ' medicines • live');
+  } catch(e) {
+    console.error('Fetch error:', e);
+    setStatus('error', 'Connection error — check internet');
+    if (!DATA.length) {
+      document.getElementById('diseaseList').innerHTML =
+        `<div style="padding:16px;text-align:center;font-size:12px;color:#9CA3AF;line-height:1.6">
+          <strong style="color:#374151;display:block;margin-bottom:4px">No data</strong>
+          Check internet connection
+        </div>`;
+    }
+  }
+}
+
+function setupRealtime() {
+
+  setInterval(async () => {
+    await fetchData();
+  }, 5000);
+}
+
+
+let CART = [];
+
+function addToCart(med) {
+  if (!med || !med.MedicineName) return; // never let a bad entry into the cart
+  const exists = CART.find(c => c.MedicineName === med.MedicineName && c.Company === med.Company);
+  if (exists) {
+    revealCart();
+    return; // already in cart
+  }
+  CART.push(med);
+  renderCart();
+  revealCart();
+  // Flash animation on cart count
+  const cc = document.getElementById('cartCount');
+  cc.style.transform = 'scale(1.3)';
+  setTimeout(() => cc.style.transform = 'scale(1)', 200);
+}
+
+function revealCart() {
+  const layout = document.getElementById('mainLayout');
+  layout.scrollTo({ left: layout.scrollWidth, behavior: 'smooth' });
+}
+
+function removeFromCart(idx) {
+  CART.splice(idx, 1);
+  renderCart();
+  revealCart();
+}
+
+function renderCart() {
+  const list = document.getElementById('cartList');
+  const countEl = document.getElementById('cartCount');
+  const emptyEl = document.getElementById('cartEmpty');
+  const printBtn = document.getElementById('printCartBtn');
+
+  countEl.textContent = CART.length + ' item' + (CART.length !== 1 ? 's' : '');
+  list.innerHTML = '';
+
+  if (!CART.length) {
+    emptyEl.style.display = 'block';
+    printBtn.style.display = 'none';
+    return;
+  }
+
+  emptyEl.style.display = 'none';
+  printBtn.style.display = 'block';
+
+  CART.forEach((med, idx) => {
+    if (!med || !med.MedicineName) return;
+    const div = document.createElement('div');
+    div.style.cssText = 'display:flex;align-items:center;gap:8px;padding:8px 14px;border-bottom:1px solid #F3F4F6;animation:slideIn 0.2s ease';
+    div.innerHTML = `
+      <div style="width:28px;height:28px;border-radius:8px;background:#EDE9FE;display:flex;align-items:center;justify-content:center;font-size:13px;color:#7C3AED;flex-shrink:0">${ICONS.pill}</div>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:12px;font-weight:600;color:#111827;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${med.MedicineName}</div>
+        <div style="font-size:11px;color:#9CA3AF">${med.Company}</div>
+      </div>
+      <button onclick="removeFromCart(${idx})" style="width:20px;height:20px;border-radius:50%;background:#FEE2E2;border:none;cursor:pointer;font-size:11px;color:#DC2626;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-weight:700">×</button>`;
+    list.appendChild(div);
+  });
+}
+
+function printCart() {
+  if (!CART.length) return;
+
+  document.getElementById('printContentRx').innerHTML = CART.map((med, i) =>
+    `<div class="rx-medicine-item"><span class="rx-medicine-num">${i+1}.</span><span>${med.MedicineName}</span></div>`
+  ).join('');
+
+  document.getElementById('printArea').classList.remove('show-print');
+  document.getElementById('printAreaRx').classList.add('show-print');
+  window.print();
+}
+
+/* ============================================================
+   INIT
+============================================================ */
+document.getElementById('favCount').textContent = FAVOURITES.length;
+renderRecentlyViewed();
+fetchData();
+setupRealtime();
+// Init toggle slider after DOM ready
+setTimeout(initSlider, 50);
+</script>
+</body>
+</html>

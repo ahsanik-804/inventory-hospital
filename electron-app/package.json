@@ -1,0 +1,54 @@
+{
+  "name": "clinic-inventory",
+  "version": "1.0.0",
+  "description": "Al Rehmat Hospital - Clinic Inventory Dashboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "author": "Al Rehmat Hospital",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.alrehmathospital.clinicinventory",
+    "productName": "Clinic Inventory",
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Clinic Inventory"
+    },
+    "files": [
+      "main.js",
+      "splash.html",
+      "app/**/*",
+      "!app/inventory.xlsx"
+    ],
+    "extraResources": [
+      {
+        "from": "app/inventory.xlsx",
+        "to": "inventory-template.xlsx"
+      }
+    ]
+  }
+}
